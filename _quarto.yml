@@ -1,0 +1,25 @@
+project:
+  render:
+    - index.qmd
+  execute-dir: project
+
+title: Language
+subject: Fonaments de Psicobiologia
+subtitle: Structure, comprehension, production, and acquisition
+author: 
+  - name: Gonzalo García-Castro
+    url: gongcastro.github.io
+    email: gonzalo.garcia@sjd.es
+    orcid: 0000-0002-8553-4209
+    degrees: PhD
+    affiliations:
+      - name: Institut de Recerca Sant Joan de Déu (IRSJD)
+        city: Barcelona
+    
+
+format:
+  revealjs:
+    scrollable: true
+
+css: style.scss
+bibliography: bibliography.bib

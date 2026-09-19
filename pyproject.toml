@@ -1,0 +1,10 @@
+[project]
+name = "ub-2026-psychobiology"
+version = "0.1.0"
+description = "Slides and materials for the class at Màster en Neurociències at Universitat de Barcelona in September 2026."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipython>=9.17.1",
+    "quarto>=0.1.0",
+]

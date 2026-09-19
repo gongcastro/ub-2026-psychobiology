@@ -1,0 +1,504 @@
+
+# Language
+
+## Speech comprehension
+
+## Speech production
+
+# Language in the brain
+
+## Basic brain anatomy
+
+<https://www.brainfacts.org/3d-brain>
+
+## Language impairments (aphasia)
+
+The first discoveries of brain areas involved in language processing (speaking, understanding, reading, writing) came from clinical studies on patients with brain lesions and language impairments.
+
+## Language impairments (aphasia)
+
+Aphasia
+: Aphasia is a disorder that results from damage (usually from a stroke or traumatic brain injury) to areas of the brain that are responsible for language. (NIH)
+
+## Language impairments (aphasia)
+
+Acquired brain damage after:
+
+* Stroke damage
+* Head injury
+* Progressive neurological disorders (e.g., Alzheimer)
+* Brain tumor
+* Encephalitis
+
+Damage is more frequently located on left side of the brain.
+
+## Language impairments (aphasia)
+
+Can affect one or more communication modalities:
+
+|                  | Comprehension        | Production        |
+|==================|======================|===================|
+|Spoken languages  | Speech comprehension | Speech production |
+|Written languages | Reading              | Writing           |
+
+## Language impairments (aphasia)
+
+Localization of the damage is associated with different resulting patterns of language impairment.
+
+![](/img/aphasia.png)
+
+## Broca's aphasia
+
+::: {.columns}
+
+::: {.column}
+
+Paul Broca (1861)
+
+* Inability to properly **produce** any words other than "tan".
+* Speech comprehension intact
+* Post-mortem examination of the patient's brain: damage to the 3rd convolution of the left frontal lobe
+
+This area is now known as Broca's Area, and corresponds to Broadmann's area BA 44/45
+:::
+
+::: {.column}
+
+![Copyright © Society for Neuroscience (2017).](/img/broca.jpg)
+
+:::
+
+:::
+
+## Broca's aphasia
+
+* Difficulties in speech production
+* Speech comprehension intact
+
+What can we learn from the function of Broca's area?
+
+## Broca's aphasia
+
+Broca's area involved in:
+
+* Motor programing of articulatory movements (together with supplementary motor area, basal ganglia and cerebellum)
+* Grammatica processing (activates when judging the grammaticality of a sentence)
+
+## Broca's aphasia
+
+>Yes... ah... Monday... er... Dad and Peter H... (his own name), and Dad.... er... hospital... and ah... Wednesday... Wednesday, nine o'clock... and oh... Thursday... ten o'clock, ah doctors... two... an' doctors... and er... teeth...yah.
+
+{{< video https://www.youtube.com/watch?v=JWC-cVQmEmY >}}
+
+## Wernicke's aphasia
+ 
+::: {.columns}
+
+::: {.column}
+
+Carl Wenicke (1874):
+
+* Difficulties in understanding language
+* Fluent speech, typical speech rate, intact grammatical abilities
+* Produced speech does not have meaning (*word salad*)
+* Post-mortem examination of the patient's brain: left temporal lobe
+
+This area is now known as Wernickes's area, and corresponds to Broadmann's area BA 22/24.
+:::
+
+::: {.column}
+
+![Copyright © Society for Neuroscience (2017).](/img/wernicke.jpg)
+
+:::
+
+:::
+
+
+## Wernicke's aphasia
+
+Wernickes's area involved in:
+
+* Speech comprehension
+* Close to auditory cortex
+* Involved in access to word meaning
+
+## Wernicke's aphasia
+
+{{< video https://www.youtube.com/watch?v=3oef68YabD0 >}}
+
+## Conduction aphasia
+
+::: {.columns}
+
+::: {.column}
+
+Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
+
+* Deficit in spoken word repetition: patients fail to encode phonological information (inverted positions of syllables)
+* Speeh comprehension intact
+* Patients are aware of the errors (unlike other forms of aphasia) but still have difficulty in correcting their speech
+* Lesion in the arcuate fasciculus, often after stroke
+
+This area is now known as Wernickes's area, and corresponds to Broadmann's area BA 22/24.
+:::
+
+::: {.column}
+
+![Wikimedia Commons](/img/arcuate.jpg)
+
+:::
+
+:::
+
+## Conduction aphasia
+
+> *Clinician*: Now, I want you to say some words after me. Say 'boy'. > Patient: Boy.
+> Clinician: Home.
+> Patient: Home.
+> Clinician: Seventy-nine.
+> Patient: Ninety-seven. No … sevinty-sine … siventy-nice….
+> Clinician: Let's try another one. Say 'refrigerator'
+> Patient: Frigilator … no? how about … frerigilator … no frigaliterlater… aahh! It's all mixed up!" 
+
+Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
+
+## Anomic aphasia
+
+::: {.columns}
+
+::: {.column}
+
+Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
+
+* Difficulty in word selection of (nouns and verbs): failed word retrieval
+* Fluent speech
+* Comprehension preserved
+* Can be very specific: color anomia (deficit in retrieving words for color)
+* Neuroanatomical correlates unclear: Peri-sylvian area, generally result of progressive diseases
+
+:::
+
+::: {.column}
+
+
+:::
+
+:::
+
+
+## Global aphasia
+
+* Serious deficit of speech production and comprehension
+* Patients are almost mute or produced stereotyped sentences (formed by very few disconnected words)
+* Repetitions, reading, writing all compromised patients are able to express themselves using intonation, facial expression, gestures
+
+* Lesion at left inferior frontal areas, superior temporal areas, most of the parietal lobe
+* Typically caused by occlusion (thrombotic stroke) at the left middle cerebral artery [Neupsy Key web; 1. Alexander & Loverso, 1992]
+
+## Brain localization of language functions
+
+### Wada's test
+
+Wada test or Wada-Milner test (1930)
+
+::: {.columns}
+
+::: {.column}
+
+* Injection of anesthetic agent into the internal carotid artery to anesthetize one hemisphere at a time
+* Used to determine cerebral dominance for language functions invasive and risky
+
+:::
+
+::: {.column}
+
+![](/img/wada.png)
+
+:::
+
+:::
+
+## Brain localization of language functions
+
+### Wada's test
+
+Injection in the dominant hemisphere for language causes speech arrest or language impairments but not when injections was performed in the non-dominant hemisphere.
+
+* Use for research now replaced with safer techniques
+* Still used with some patients in need of brain surgery
+
+## Brain localization of language functions
+
+### Awake brain surgery
+
+<https://www.youtube.com/watch?v=5K66gj5e4Mk>
+
+## Brain localization of language functions
+
+### Neuroimaging
+
+* Electroencephalography (EEG)
+* Magnetoencelography (MEG)
+* Functional Magnetic Resonance Imaging (fMRI)
+* Functional Near-Infrared Spectroscopy (fNIRS)
+
+## Lateralization of language functions
+
+For many years the preferred hand was believed to be  contralateral to the cerebral hemisphere dominant for language:
+
+* Right-handers -> left-hemisphere dominance
+* Left-handers -> right-hemisphere dominance
+
+**Now**: brain lateralization is *partially* associated with handedness
+
+* Right-handers: 95% have left-hemisphere dominance for language
+* Left-handers: 50-70% also show left-hemisphere dominance
+
+Hand preference is relevant but not totally reliable as predicting measure of language dominance in the brain.
+
+## Lateralization of language functions
+
+* Many human cognitive functions are "lateralized” =  brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)
+* Cerebral hemispheres are interconnected by the corpus callosum: largest fiber system in the brain!
+
+![](/img/lateralization.png)
+
+## Lateralization of language functions
+
+* These fibers connect correspondent brain areas in the two hemispheres (homotopic connection), but also non-correspondent areas (heterotopic connections)
+* Main function: inhibitory role; it prevents competition between brain hemispheres in information processing 
+
+## Lateralization of language functions
+
+::: {.columns}
+
+::: {.column}
+
+* Corpus callosum matures slowly over the first 5 to 10 years of human life 
+* Resection of corpus callosum or hemispherectomy in case of severe epilepsy in children under this age does not compromise the brain 
+* Brain rewires itself! 
+
+:::
+
+::: {.column}
+
+![](/img/half.png)
+
+:::
+
+:::
+
+## Studying language in healthy participants
+
+### Language errors (*lapsus linguae*)
+
+## Studying language in healthy participants
+
+### Tip-of-tongue phenomenon
+
+
+# Spoken speech perception
+
+From sound to meaning
+
+## Structure of the speech signal
+
+continuous signal with no silent pauses between words
+
+we don’t put pauses at word boundaries when we talk so
+sounds melt into one another
+
+boundaries between individual spoken words are not easy to
+detect: ice cream vs. I scream
+
+speech segmentation = identifying word boundaries in
+continuous speech, when a word begins and ends
+
+## Structure of the speech signal
+
+### Speech segmentation
+
+identifying boundaries between words produced in spoken language = when a word begins and ends
+
+through exposure to language, learners detect the likelihood (probabilities) with which sounds go together 
+
+sounds that often appear together are more likely to form a word (ho-la ---> hola) 
+
+human infants learning native language(s) use the same mechanism in order to predict what sound comes next
+
+## Structure of the speech signal
+
+### Speech segmentation
+
+{{< video https://vimeo.com/21454995 >}}
+
+## Structure of the speech signal
+
+### Variability in speech
+
+another issue we experience when we are hearing an unknown language is the inter-speaker differences:
+
+age = kids’ voice is different than adults’ voice in many dimensions (e.g., pitch, intonation)
+sex: female voice has higher pitch than male voice
+accent: variations in pronunciation e.g., American vs. British English
+dialect: variations in grammar and vocabulary; e.g., different words to express the same content
+
+## Structure of the speech signal
+
+### Variability in speech
+
+9-month-old infants fail to recognize the same word when pronounced by speakers using different dialects
+
+similar effects in adults learning new languages
+
+How do language learners deal with variability in the input?
+
+through increased exposure to language, we learn thatsome sets of properties are more constant than others (e.g., sounds of the same word go together no
+matter who is talking)
+
+we consider such regular properties a more reliable
+source of information, and ignore (although not
+completely) other sources
+
+Netflix documentary Babies, Episode ‘First Words’
+
+<https://www.youtube.com/watch?v=BFtbXwnBRg8>
+
+## Brain correlates of spoken speech perception
+
+### 1) Auditory nerve (cochlear nerve)
+
+Carries out sensory info from the ear to the brain, through the auditory pathway, reaching out  the primary auditory cortex (A1), located in temporal lobes.
+
+Contralateral projections of the two ears to project to the opposite hemisphere (left ear’s nerve projects to the right temporal lobe and viceversa).
+
+## Brain underpinnings
+
+### 2) Auditory cortex
+
+Primary auditory cortex responds equally to speech and other sounds in both left and right hemisphere.
+
+However, anterior regions of left auditory cortex responds more to speech than non-speech sounds with same acoustic complexity (Scott et al., 2000)
+
+Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.
+
+Left hemisphere damages can result in a type of auditory agnosia = environmental sounds and music are identified, but not speech (which appears ”distorted and too fast”
+
+## Brain underpinnings
+
+### 2) Auditory cortex
+
+advantage of right auditory pathway, that projects contralaterally to the left hemisphere in processing spoken language
+
+Dichotic listening: when two different linguistic sounds (e.g., syllables or words) are presented simultaneously to both ears, the sound coming from the right ear arrives faster at Wernicke’s area
+
+when there is acoustic competition, participants repeat the syllables presented to the right ear more accurately  
+
+# Visual speech perception (reading)
+
+From text to meaning
+
+## Literacy
+
+the ability to read and write is essentially a cultural invention albeit of great significance;   
+
+ability to use printed and written materials (language, numbers, computer scripts) to gain knowledge 
+
+pre-historic literacy = earliest form of written communication dates back to 3500 BCE, in Sumer (southern Mesopotamia)  
+
+literacy became universal in Western cultures 100 years ago; for 95% of our history the Homo Sapiens was pre-literate
+
+## Literacy
+
+![](/img/literacy.png)
+
+## Literacy
+
+reading and writing are astonishing complex skills
+
+learning to read and write requires a dedicated neuro-cognitive system which comprises other perceptual and cognitive functions: 
+
+* basic visual skills (visual recognition)
+* phonological processing (knowledge of the sounds of language)
+* oculomotor control (ability to control eye movements)
+* attention
+* memory
+* learning
+* high-level language capacities to detect meanings 
+* human brain has not evolved specifically for literacy, we have to learn it!
+
+## READING AS LEARNED EXPERT SYSTEM
+
+visual word recognition = how we recognize individual printed words
+cognitive mechanism that allows reader to map orthography (printed words) into phonology (sounds) 
+computational models provide useful info to understand how reading works 
+artificial neural networks – the most used models that simulate how brain neurons respond during reading 
+
+## READING AS LEARNED EXPERT SYSTEM
+
+word superiority effect = detection of a single letter (R) is faster in the context of a word (CARPET) or plausible non-word (HARPOT) than a random string of letter (CTRPAE)
+visual word recognition does not work letter-by-letter 
+our brain is likely to process clusters of letters (the word as a whole) rather than individual letters
+
+## READING AS LEARNED EXPERT SYSTEM
+
+![](/img/read.png)
+
+## Visual word recognition
+
+## Characteristics of VWFA
+
+## Reading impairments
+
+### Pure alexia
+
+severe reading problems, patients read letter-by-letter 
+impairment of the parallel processing of letters
+reading difficulty increases with word length
+other language skills are intact but naming is also impaired, especially for colors
+
+## Reading impairments
+
+### Pure alexia
+
+principally caused by infarct to the left posterior cerebral artery, that perfuses corpus callosum and left visual cortex 
+
+damage at inferior longitudinal fasciculus that connects VWFA to occipital lobe, impairing transmission of visual info to VWFA
+
+## Reading impairments
+
+### Pure alexia
+
+patients can still write because pathways connecting left-sided language areas to motor areas are intact
+rehabilitation may work (e.g., reading out loud to stimulate the damaged system in the brain)
+other associated signs: short-term memory loss, hemianopia (blindess over half vision field)
+controversy about whether the deficit impairs general visual processing or reading-specific mechanisms or both (problems at one level would affect the other, and vice versa)
+
+
+## Acquired dislexia
+
+mispronunciation of irregular words = patients read all words following standard pronunciation rules
+regularization errors: patients cannot recognize a word as a whole, and retrieve pronunciation from memory, e.g., shoe = /sho/ as in show
+principal damage in left occipito-temporal area (VWFA)
+
+
+# Language acquisition
+
+## Research methods in infancy
+
+### Behavioural methods
+
+## Research methods in infancy
+
+### Neuroimaging methods
+
+## Language in the infant brain
+
+## Language hemispheric dominance in infants
+
+## Preference for speech at birth
+
+## Prenatal experience with speech
+
+# Thank you
