@@ -475,30 +475,308 @@ rehabilitation may work (e.g., reading out loud to stimulate the damaged system 
 other associated signs: short-term memory loss, hemianopia (blindess over half vision field)
 controversy about whether the deficit impairs general visual processing or reading-specific mechanisms or both (problems at one level would affect the other, and vice versa)
 
+## Reading impairments
 
-## Acquired dislexia
+### Acquired surface dislexia
 
 mispronunciation of irregular words = patients read all words following standard pronunciation rules
 regularization errors: patients cannot recognize a word as a whole, and retrieve pronunciation from memory, e.g., shoe = /sho/ as in show
 principal damage in left occipito-temporal area (VWFA)
 
+## Reading impairments
 
-# Language acquisition
+### Acquired phonological dislexia
+
+inability to read non-words ---> opposite of Surface Dyslexia
+ability to read words is not impaired
+sometimes the distinction is more accurate and points to the familiarity of the word = phonological dyslexics are able to read familiar but not unfamiliar words (although plausible), nor pronounceable non-words
+impairment of the grapheme-phoneme conversion
+
+## Reading impairments
+
+### Acquired deep dislexia
+
+semantic errors when reading words, e.g., CAT ---> dog
+inability to read non-words
+impairment of both grapheme-phoneme conversion, and lexical-semantical system 
+typically accompanied by impairments to language abilities other than reading, as the damage in the brain seems to extend to a huge portion of the left hemisphere
+
+
+# Language in the infant brain
+
+## Research methods in infancy
+
+* tasks that do not require verbal instructions or key-pressing responses
+* short attention span
+* get tired quickly
+* experiments have to be fast (~5 minutes max)
+
+Research with infants is challenging!
+
+## Research methods in infancy
+
+* Behavioral (based on infants' natural tendency to look at conspicuous/novel visual stimuli)
+* Physiological (cardiac rhythm)
+* Bain imaging (EEG, fMRI, MEG, fNIRS)
 
 ## Research methods in infancy
 
 ### Behavioural methods
 
+change in behavioral response = ability to discriminate 2
+events
+
+## Research methods in infancy
+
+### Behavioural methods
+
+Headturn Preference Procedure (HPP) [Kemler-Nelson, 1995]
+
+* familiarization with acoustic stimuli (e.g., sequence of sounds)
+* then, 2 types of audio stimuli
+* presented while a flashing light alternates on the lateral
+screens
+* infant would make head turns towards the light, and listen to
+the sounds as long as she wants
+* sound stops when baby stops looking
+
+
+## Research methods in infancy
+
+### Behavioural methods
+
+Preferential looking
+
+* Two images on a screen
+* recording looking time at each image
+* determines if infants can discriminate one stimulus from another by measuring how much time they look at them
+* Images can be paired with sounds to measure acoustic preferences through visual preferences
+
+
+## Research methods in infancy
+
+### Behavioural methods
+
+Preferential looking (eye-tracking)
+
+* automatized recording of infant’s eye-movements (eye-position, fixations, saccades..)
+* based on infrared light (non-invasive) that create aa corneal reflection to locate eye position
+* pupillometry
+
+## Research methods in infancy
+
+### Behavioural methods
+
+Habituation / Dishabituation
+
+* showing the same stimulus repeatedly until infant shows a clear decrease in looking time
+* when a novel stimulus is presented, an increase in looking time should occur
+
+
+## Research methods in infancy
+
+### Behavioural methods
+
+High-Amplitude Sucking Procedure
+
+newborns is given a special pacifier that measures sucking rate
+
+* newborn’s sucking frequency controls the presentation of
+sounds until bored (habituation)
+* presentation of new sound: if newborn recognizes the change, she will increases the sucking rate
+
 ## Research methods in infancy
 
 ### Neuroimaging methods
 
-## Language in the infant brain
+A change in neurophisiological response contingent to different types of stimulation may reveal differences in underlying procecesing between stimulus types.
 
-## Language hemispheric dominance in infants
+## Research methods in infancy
 
-## Preference for speech at birth
+### Neuroimaging methods
+
+Magnetoencephalography (MEG)
+
+maps brain activity
+
+* records magnetic fields caused by electrical
+activity naturally produced in the brain
+*  good at spatially localize brain activation
+* pros: baby is free to move; good spatial resolution
+* cons: huge, very expensive
+
+## Research methods in infancy
+
+### Neuroimaging methods
+
+Functional Magnetic Resonance (fMRI)
+
+* measures brain activity by detecting hemodynamic response in the brain
+(changes in blood flow)
+* cons: lot of noise, babies should move as less as possible as movements can cause artifacts (distortions of images)
+
+## Research methods in infancy
+
+### Neuroimaging methods
+
+Electroencephalography (EEG)
+
+records electrical activity naturally produced by the brain
+
+* measures voltage fluctuations resulting from ionic current within neurons (ERPs) in response to stimuli (images, sounds etc)
+* pros: cheaper; more baby-friendly than other techniques; good to measure timecourse of activation
+* cons: also sensitive to motion
+
+## Research methods in infancy
+
+### Neuroimaging methods
+
+Functional Near-Infrared Spectroscopy (fNIRS)
+
+measures hemodynamic responses in the brain during stimuli presentation (images, sounds, etc)
+
+* infrared light goes into the scalp and
+comes back
+* provides info about brain activation as amount of oxygen delivered by cerebral blood flow in a brain area
+* pros: less invasive, less sensors
+
+
+## Language acquisition
+
+### At birth
+
+At 2-3 days of life, neonate brain is already processing language, showing activation of main language areas.
+
+## Language acquisition
+
+### At birth
+
+2- to 5- day-old neonates [@gomez2014]
+
+* blif vs. lbif = possible vs. impossible syllables in all languages
+* left temporal and right fronto-parietal areas activate when syllables are presented
+* fNIRS measures differences in blood oxygen level in these areas in response to well-formed (possible) syllables vs. ill-formed (impossible) syllables
+
+## Language acquisition
+
+### Preference for speech 
+
+at birth
+
+* humans show a preference for native spoken language vs. acoustically similar, non-language stimuli (e.g., complex sequence of non-linguistic sounds) since birth
+* preference for the vocalizations emitted by conspecifics is a common phenomenon in the animal kingdom
+* for the young of different species, including infants, their own- species sounds (e.g., speech) have a “survival” importance
+
+## Language acquisition
+
+### Preference for speech 
+
+at birth
+
+DeCasper & Fifer, 1980; DeCasper & Spence, 1986;
+for a review: Saffran, Werker & Werner, 2006
+
+newborns prefer their mother’s voice to other
+female voices
+* distinguish stories heard prenatally from other
+stories
+* prefer songs sang by the mother to other songs
+* speech vs. synthetic sounds and white noise
+* native speech vs. non-native speech
+
+
+## Language acquisition
+
+### Preference for speech
+
+3 months -old [Shultz & Vouloumanos, 2010]
+
+prefer non-native speech (e.g., Russian and
+Japanese presented to English-learning infants) vs.
+natural sounds sharing properties with spoken
+languages:
+
+* monkey calls
+* human non-communicative vocalizations (e.g., sneezes)
+* human communicative vocalizations (e.g., agreement)
+* environmental sounds (e.g., running water)
+
+## Language acquisition
+
+### Preference for speech
+
+3 months -old [Shultz & Vouloumanos, 2010]
+
+these comparisons allowed to isolate some properties of
+speech to see if infants’ preferences are driven by any of them
+
+[table]
+
+* if infants’ preferences were general, they would have preferred all biological sounds
+* if infants’ preferences were specific, they would have preferred speech (not all the other sounds)
+
+## Language acquisition
+
+### Preference for speech
+
+3 months -old [Shultz & Vouloumanos, 2010]
+
+Familiarity with speech does not drive the preference,
+speech is non-native (Japanese and Russian)
+
+## Language acquisition
+
+### Language hemispheric dominance in infants
+
+Pena et al. (2003). PNAS
+left temporal region responds differently to s peech vs. backward speech vs. silence; right temporal region does not
+
+greater activation in channels
+7-12 on left hemisphere
+
+
+## Language acquisition
+
+### Language hemispheric dominance in infants
+
+Dehaene-Lambertz et al. (2002). Science
+
+fMRI study with 2- to 3-month-old infants shows activation of left
+(not right) temporal and parietal areas in response to speech
 
 ## Prenatal experience with speech
+
+fetuses do not experience speech as we do: only low-frequency components
+of speech can be heard (pitch, rhythm, some phonetic information)
+
+Eisenberg (1976); Gerhardt et al. (1992); Querleu et al., 1988; Lecaneut & Granier-Deferre (1993); Lasky & Trickey (2005)
+
+## Prenatal experience with speech
+
+fetuses have access to the mother’s voice through bone
+conduction:
+* mother’s voice is carried along the vertebral column into her pelvis to the bones of fetus’ head, then directly to fetus’ inner ear
+* at ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother’s voice
+
+## Prenatal experience with speech
+
+fetal heart rate (FHR) is also used in prenatal research to
+investigate discrimination of sounds
+
+* placing a loudspeaker close to the mom’s abdomen
+* FHR is measured with actograph or ultrasound visualization
+* sound discrimination occurs when FHR changes (acceleration/deceleration of heart beat) in response to sound changes)
+* used a lot in clinical research
+
+## Prenatal experience with speech
+
+May, Byers-Heinlein, Gervain & Werker (2011)
+
+* research on fetal sound discrimination confirms the ability of fetuses to detect and respond to maternal voice
+• mother’s voice seems to be a salient auditory stimulus even
+before birth, and has calming effect in fetuses
+• effects on post-natal auditory preferences and behavior
+    + pre-natal experience can be one expMay, Byers-Heinlein, Gervain & Werker (2011)lanation of post-natal
+    + preferences for mother’s voice, and for speech
 
 # Thank you
