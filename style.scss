@@ -23,9 +23,6 @@ strong {
     font-size: 30px !important;
 }
 
-caption {
-    font-size: 25px !important;
-}
 
 td,
 th,
@@ -36,15 +33,16 @@ p.aside-footnotes {
     font-family: monospace;
 }
 
+
 aside>p {
     font-size: 20px !important;
 }
 
-figcaption {
-    text-align: center;
-    align-items: center !important;
-    display: flex !important;
-}
+// figcaption {
+//     text-align: center;
+//     align-items: center !important;
+//     display: flex !important;
+// }
 
 .citation,
 aside,

@@ -1,51 +1,237 @@
 
 # Language
 
-## Speech comprehension
+## What is language
 
-## Speech production
+Finite system of symbols (words) that can be combined using rules to make a virtually infinite number of distinct sentences.
+
+* Unique to humans, who are predisposed to acquire it
+* Basic function underlying language are largely shared with non-human animals
+
+## What is language
+
+Finite system of [symbols]{style="background: black; color: white"} (words) that can be combined using rules to make a virtually infinite number of distinct sentences.
+
+<br>
+
+
+::: {.columns}
+::: {.column}
+**Words** (symbols, in general) hold **arbitrary** relationship between form and meaning
+
+(With few exceptions)
+:::
+::: {.column}
+::: center
+![Does the word *tree* sound, look, or feel like a tree?](/img/tree.jpg){width=250}
+:::
+:::
+:::
+
+## What is language?
+
+<br>
+<br>
+
+[Finite]{style="background: black; color: white"} system of symbols (words) that can be combined using rules to make a virtually infinite number of distinct sentences.
+
+::: {.columns}
+::: {.column width="30%"}
+**Limited number of words** in a language.
+:::
+::: {.column width="70%"}
+|Person       | Words   | Lemmas | Base words |
+|-------------|---------|--------|------------|
+| *20-year-old* |         |        |            | 	
+| Low end     | 84,000  | 27,100 | 6,100      |
+| Median      |         | 42,000 | 11,100     |
+| High end    | 292,000 | 51,700 | 14,900     |
+| *60-year-old* |       |      |          |		
+| Low end     | 157,000 | 35,100 | 9,000      |
+| Median	  |         | 48,200 | 13,400     |
+| High end    | 543,000 | 56,400 | 16,700     |
+: Adapted from @brysbaert_how_2016.
+:::
+:::
+
+## What is language?
+
+<br>
+<br>
+
+Finite system of symbols (words) that can be combined using [rules]{style="background: black; color: white"} to make a virtually infinite number of distinct sentences.
+
+<br>
+
+::: {.columns}
+::: {.column}
+Words (and other linguistic units) are **combined in systematic ways**, following rules we know as **grammar**.
+:::
+::: {.column}
+::: center
+![A recursive pattern can be embedded in itself.](/img/recursivity.gif)
+:::
+:::
+:::
+
+
+## What is language?
+
+<br>
+<br>
+
+
+7,745 identified languages ([Glottolog](https://glottolog.org/))
+
+| AES status     | # of languages | % of languages |
+|----------------|----------------|----------------|
+| not endangered | 2643           | 34.13%         |
+| threatened     | 1595           | 20.59%         |
+| shifting       | 1805           | 23.31%         |
+| moribund       | 422            | 5.45%          |
+| nearly extinct | 299            | 3.86%          |
+| extinct        | 981            | 12.67%         |
+: Agglomerated Endangerment Status [@hammarstrom_glottologglottolog_2025]
+
+## What is language?
+
+::: center
+{{< video img/protactile.mp4 title="Protactile language" width="800" >}}
+:::
+
+<https://www.youtube.com/watch?v=8im72wFTa9Y>
+
+## What is language?
+
+::: center
+{{< video img/silbo-gomero.mp4 title="Silbo gomero" width="800" >}}
+:::
+
+<https://www.youtube.com/watch?v=C0CIRCjoICA>
+
+## What is language?
+
+::: center
+{{< video img/kus-dili.mp4 title="Kuş dili" width="800" >}}
+:::
+
+<https://www.youtube.com/watch?v=l117wfB0g3o>
+
+![<https://blogonlinguistics.wordpress.com>](/img/linguistics.png)
+
+## What is language?
+
+<br>
+<br>
+
+### Speech comprehension
+
+```{mermaid}
+flowchart LR
+  A[Speech] --> B(Acoustic decoding)
+  B --> C(Phonemes)
+  C --> D(Words)
+  D --> E(Meaning)
+```
+
+### Speech production
+
+```{mermaid}
+flowchart LR
+  A(Meaning) --> B(Words)
+  B --> C(Phonemes)
+  C --> D[Articulatory movements]
+  D --> E[Speech]
+```
 
 # Language in the brain
 
 ## Basic brain anatomy
 
+<https://atlases.ebrains.eu/viewer/>
+
 <https://www.brainfacts.org/3d-brain>
 
-## Language impairments (aphasia)
-
-The first discoveries of brain areas involved in language processing (speaking, understanding, reading, writing) came from clinical studies on patients with brain lesions and language impairments.
+![Brain macro-anatomy](/img/brain-macro.png){ #fig-brain-macro }
 
 ## Language impairments (aphasia)
+
+
+::: {.columns}
+
+::: {.column}
+
+The first **neuroanatomical mapping** of language functions (*speaking*, *understanding*, *reading*, *writing*) came from clinical studies on patients with **brain lesions** and language impairments.
+
+:::
+
+::: {.column}
 
 Aphasia
-: Aphasia is a disorder that results from damage (usually from a stroke or traumatic brain injury) to areas of the brain that are responsible for language. (NIH)
+: Aphasia is a disorder that results from damage (usually from a stroke or traumatic brain injury) to areas of the brain that are responsible for language.^[NIH, <https://www.nidcd.nih.gov/health/aphasia>]
+
+:::
+
+:::
 
 ## Language impairments (aphasia)
 
-Acquired brain damage after:
+ 
+::: {.columns}
 
-* Stroke damage
-* Head injury
-* Progressive neurological disorders (e.g., Alzheimer)
-* Brain tumor
-* Encephalitis
+::: {.column}
 
-Damage is more frequently located on left side of the brain.
+**Acquired brain damage** after stroke damage (most common), head injury, progressive neurological disorders (e.g., Alzheimer), brain tumor, encephalitis.
 
-## Language impairments (aphasia)
+Damage is more frequently located on **left side of the brain**.
 
 Can affect one or more communication modalities:
 
-|                  | Comprehension        | Production        |
-|==================|======================|===================|
-|Spoken languages  | Speech comprehension | Speech production |
-|Written languages | Reading              | Writing           |
+|          | *Comprehension*      | *Production*      |
+|----------|----------------------|-------------------|
+|*Spoken*  | Speech comprehension | Speech production |
+|*Written* | Reading              | Writing           |
+:::
+
+::: {.column}
+
+![Lesion overlap map for 69 patients with left hemisphere post stroke aphasia<br>[@halai2020investigating]](/img/halai2021.jpeg)
+
+:::
+
+:::
+
 
 ## Language impairments (aphasia)
 
 Localization of the damage is associated with different resulting patterns of language impairment.
 
-![](/img/aphasia.png)
+```{mermaid}
+flowchart TD
+  A[Is fluent] --> B[Can comprehend]
+  A --> C[Cannot comprehend]
+  B --> E[Can repeat]
+  B --> F[Cannot repeat]
+  C --> G[Can repeat]
+  C --> H[Cannot repeat]
+  I[Is not fluent] --> J[Can comprehend]
+  I --> K[Cannot comprehend]
+  J --> L[Can repeat]
+  J --> M[Cannot repeat]
+  K --> N[Can repeat]
+  K --> O[Cannot repeat]
+  
+  E --> P(Anomic aphasia)
+  F --> Q(Conduction aphasia)
+  G --> R(Transcortical<br>sensory aphasia)
+  H --> S(Wernicke's aphasia)
+  L --> T(Transcortical<br>motor aphasia)
+  M --> U(Broca's aphasia)
+  N --> V(Mixed transcortical<br>aphasia)
+  O --> W(Global aphasia)
+
+
+```
 
 ## Broca's aphasia
 
@@ -72,23 +258,33 @@ This area is now known as Broca's Area, and corresponds to Broadmann's area BA 4
 
 ## Broca's aphasia
 
-* Difficulties in speech production
-* Speech comprehension intact
+* Difficulties in **speech production**
+* **Speech comprehension** intact
 
-What can we learn from the function of Broca's area?
+What can we learn from the function of Broca's area? Broca's area involved in:
 
-## Broca's aphasia
-
-Broca's area involved in:
-
-* Motor programing of articulatory movements (together with supplementary motor area, basal ganglia and cerebellum)
-* Grammatica processing (activates when judging the grammaticality of a sentence)
+* **Motor programing** of **articulatory movements** (together with supplementary motor area, basal ganglia and cerebellum)
+* **Grammatical processing** (activates when judging the grammaticality of a sentence)
 
 ## Broca's aphasia
+
+
+::: {.columns}
+
+::: {.column}
 
 >Yes... ah... Monday... er... Dad and Peter H... (his own name), and Dad.... er... hospital... and ah... Wednesday... Wednesday, nine o'clock... and oh... Thursday... ten o'clock, ah doctors... two... an' doctors... and er... teeth...yah.
 
-{{< video https://www.youtube.com/watch?v=JWC-cVQmEmY >}}
+:::
+
+::: {.column}
+
+{{< video https://www.youtube.com/watch?v=JWC-cVQmEmY width="500" height="500" >}}
+
+:::
+
+:::
+
 
 ## Wernicke's aphasia
  
@@ -116,6 +312,11 @@ This area is now known as Wernickes's area, and corresponds to Broadmann's area 
 
 
 ## Wernicke's aphasia
+ 
+::: {.columns}
+
+::: {.column}
+
 
 Wernickes's area involved in:
 
@@ -123,9 +324,14 @@ Wernickes's area involved in:
 * Close to auditory cortex
 * Involved in access to word meaning
 
-## Wernicke's aphasia
+:::
 
-{{< video https://www.youtube.com/watch?v=3oef68YabD0 >}}
+::: {.column}
+
+{{< video https://www.youtube.com/watch?v=3oef68YabD0 width="500" height="500" >}}
+:::
+
+:::
 
 ## Conduction aphasia
 
@@ -133,10 +339,10 @@ Wernickes's area involved in:
 
 ::: {.column}
 
-Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
+@brookshire2014introduction:
 
-* Deficit in spoken word repetition: patients fail to encode phonological information (inverted positions of syllables)
-* Speeh comprehension intact
+* **Deficit in spoken word repetition**: patients fail to encode phonological information (inverted positions of syllables)
+* Speech comprehension relatively preseved
 * Patients are aware of the errors (unlike other forms of aphasia) but still have difficulty in correcting their speech
 * Lesion in the arcuate fasciculus, often after stroke
 
@@ -153,34 +359,49 @@ This area is now known as Wernickes's area, and corresponds to Broadmann's area 
 
 ## Conduction aphasia
 
-> *Clinician*: Now, I want you to say some words after me. Say 'boy'. > Patient: Boy.
-> Clinician: Home.
-> Patient: Home.
-> Clinician: Seventy-nine.
-> Patient: Ninety-seven. No … sevinty-sine … siventy-nice….
-> Clinician: Let's try another one. Say 'refrigerator'
-> Patient: Frigilator … no? how about … frerigilator … no frigaliterlater… aahh! It's all mixed up!" 
-
-Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
-
-## Anomic aphasia
-
 ::: {.columns}
 
 ::: {.column}
 
-Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
 
-* Difficulty in word selection of (nouns and verbs): failed word retrieval
-* Fluent speech
-* Comprehension preserved
-* Can be very specific: color anomia (deficit in retrieving words for color)
-* Neuroanatomical correlates unclear: Peri-sylvian area, generally result of progressive diseases
+> *Clinician*: Now, I want you to say some words after me. Say 'boy'.
+
+> *Patient*: Boy.
+
+> *Clinician*: Let's try another one. Say 'refrigerator'.
+
+> *Patient*: Frigilator … no? how about … frerigilator … no frigaliterlater… aahh! It's all mixed up!" 
 
 :::
 
 ::: {.column}
 
+{{< video https://www.youtube.com/watch?v=1yC-uX5VOiE width="600" height="400" >}}
+
+:::
+
+:::
+
+
+## Anomic aphasia and primary progressive aphasia (PPA)
+
+::: {.columns}
+
+::: {.column}
+
+@brookshire2014introduction:
+
+* **Difficulty in word selection** of (nouns and verbs): failed word retrieval
+* Fluent speech
+* Comprehension preserved
+* Can be very specific: color anomia (deficit in retrieving words for color)
+* Neuroanatomical correlates unclear: **Peri-sylvian area**, generally result of progressive diseases
+
+:::
+
+::: {.column}
+
+![Magnetic resonance imaging 10-year clinical course of PPA patient with pure anomic aphasia showing progressive atrophy of the left temporal lobe, eventually spread bilaterally.](/img/ota2024.jpg)
 
 :::
 
@@ -189,31 +410,30 @@ Brookshire R. (2003) An Introduction to Neurogenic Communication Disorders
 
 ## Global aphasia
 
-* Serious deficit of speech production and comprehension
+* Serious **deficit of speech production and comprehension**
 * Patients are almost mute or produced stereotyped sentences (formed by very few disconnected words)
 * Repetitions, reading, writing all compromised patients are able to express themselves using intonation, facial expression, gestures
 
 * Lesion at left inferior frontal areas, superior temporal areas, most of the parietal lobe
-* Typically caused by occlusion (thrombotic stroke) at the left middle cerebral artery [Neupsy Key web; 1. Alexander & Loverso, 1992]
+* Typically caused by occlusion (thrombotic stroke) at the left middle cerebral artery [@alexander1992lesion]
 
 ## Brain localization of language functions
 
-### Wada's test
-
-Wada test or Wada-Milner test (1930)
+### Lateralization
 
 ::: {.columns}
 
 ::: {.column}
 
-* Injection of anesthetic agent into the internal carotid artery to anesthetize one hemisphere at a time
-* Used to determine cerebral dominance for language functions invasive and risky
+
+* Many human cognitive functions are *lateralized*: brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)
+* Cerebral hemispheres are interconnected by the corpus callosum: largest fiber system in the brain!
 
 :::
 
 ::: {.column}
 
-![](/img/wada.png)
+![](/img/lateralization.png)
 
 :::
 
@@ -221,55 +441,28 @@ Wada test or Wada-Milner test (1930)
 
 ## Brain localization of language functions
 
-### Wada's test
+### Lateralization: Corpus callosum
 
-Injection in the dominant hemisphere for language causes speech arrest or language impairments but not when injections was performed in the non-dominant hemisphere.
+::: {.columns}
 
-* Use for research now replaced with safer techniques
-* Still used with some patients in need of brain surgery
+::: {.column}
 
-## Brain localization of language functions
+* These fibers connect correspondent brain areas in the two hemispheres (homotopic connection), but also non-correspondent areas (heterotopic connections)
+* Main function: inhibitory role; it prevents competition between brain hemispheres in information processing
 
-### Awake brain surgery
+:::
 
-<https://www.youtube.com/watch?v=5K66gj5e4Mk>
-
-## Brain localization of language functions
-
-### Neuroimaging
-
-* Electroencephalography (EEG)
-* Magnetoencelography (MEG)
-* Functional Magnetic Resonance Imaging (fMRI)
-* Functional Near-Infrared Spectroscopy (fNIRS)
-
-## Lateralization of language functions
-
-For many years the preferred hand was believed to be  contralateral to the cerebral hemisphere dominant for language:
-
-* Right-handers -> left-hemisphere dominance
-* Left-handers -> right-hemisphere dominance
-
-**Now**: brain lateralization is *partially* associated with handedness
-
-* Right-handers: 95% have left-hemisphere dominance for language
-* Left-handers: 50-70% also show left-hemisphere dominance
-
-Hand preference is relevant but not totally reliable as predicting measure of language dominance in the brain.
-
-## Lateralization of language functions
-
-* Many human cognitive functions are "lateralized” =  brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)
-* Cerebral hemispheres are interconnected by the corpus callosum: largest fiber system in the brain!
+::: {.column}
 
 ![](/img/lateralization.png)
 
+:::
+
+:::
+
 ## Lateralization of language functions
 
-* These fibers connect correspondent brain areas in the two hemispheres (homotopic connection), but also non-correspondent areas (heterotopic connections)
-* Main function: inhibitory role; it prevents competition between brain hemispheres in information processing 
-
-## Lateralization of language functions
+### Lateralization: Corpus callosum
 
 ::: {.columns}
 
@@ -289,79 +482,232 @@ Hand preference is relevant but not totally reliable as predicting measure of la
 
 :::
 
+## Brain localization of language functions
+
+### Lateralization: Wada's test
+
+Wada test or Wada-Milner test (1930)
+
+::: {.columns}
+
+::: {.column}
+
+* Injection of anesthetic agent into the internal carotid artery to **anesthetize one hemisphere at a time**
+* Used to **determine cerebral dominance** for language functions invasive and risky
+
+:::
+
+::: {.column}
+
+![](/img/wada.png)
+
+:::
+
+:::
+
+## Brain localization of language functions
+
+### Lateralization: Wada's test
+
+Wada test or Wada-Milner test (1930)
+
+::: {.columns}
+
+::: {.column}
+
+Injection in the dominant hemisphere for language causes speech arrest or language impairments but not when injections was performed in the non-dominant hemisphere.
+
+* Use for research now replaced with safer techniques
+* Still used with some patients in need of brain surgery
+:::
+
+::: {.column}
+
+![](/img/wada.png)
+
+:::
+
+:::
+
+## Brain localization of language functions
+
+### Lateralization: Wada's test
+
+{{< video https://www.youtube.com/watch?v=kqaOLtNIz78 width="800" height="500" start="656" >}}
+
+## Brain localization of language functions
+
+### Lateralization: Awake brain surgery
+
+{{< video https://www.youtube.com/watch?v=5K66gj5e4Mk width="800" height="500" start="656" >}}
+
+## Brain localization of language functions
+
+### Lateralization: Neuroimaging
+
+* Electroencephalography (EEG)
+* Magnetoencelography (MEG)
+* Functional Magnetic Resonance Imaging (fMRI)
+* Functional Near-Infrared Spectroscopy (fNIRS)
+
+## Brain localization of language functions
+
+### Lateralization: Neuroimaging
+
+For many years the preferred hand was believed to be contralateral to the cerebral hemisphere dominant for language:
+
+* Right-handers → left-hemisphere dominance
+* Left-handers → right-hemisphere dominance
+
+**Now**: brain lateralization is ***partially*** associated with handedness
+
+* Right-handers → 95% have left-hemisphere dominance for language
+* Left-handers → 50-70% also show left-hemisphere dominance
+
+Hand preference is relevant but not totally reliable as predicting measure of language dominance in the brain.
+
 ## Studying language in healthy participants
 
-### Language errors (*lapsus linguae*)
+<br> 
+
+* Language processing tasks (e.g., Lexical Decision Task)
+
+<br>
+
+![<https://www.psytoolkit.org/experiment-library/experiment_ldt.html>](/img/lexical.png)
 
 ## Studying language in healthy participants
 
-### Tip-of-tongue phenomenon
+<br> 
+
+* Language processing tasks (e.g., Lexical Decision Task)
+* Speech errors or slips of the tongue:
+
+Speech errors provide reveal the sequential order of language production. 
+
+* Example: *reading list* → *leading rist* (phoneme anticipation)
+* Insight: The speaker has selected all words in the phase before production!
+
+## Studying language in healthy participants
+
+<br> 
+
+* Language processing tasks (e.g., Lexical Decision Task)
+* Speech errors or slips of the tongue or *lapsus linguae*
+* Tip of the tongue phenomenon
+
+
+## Studying language in healthy participants
+
+<br> 
+
+* Language processing tasks (e.g., Lexical Decision Task)
+* Speech errors or slips of the tongue or *lapsus linguae*
+* Tip of the tongue phenomenon
+
+## Studying language in healthy participants
+
+### Tip of the tongue
+
+::: {.columns}
+
+::: {.column}
+
+![To give up the throne (verb).](/img/abdating.jpeg){width="200"}
+
+:::
+
+::: {.column}
+
+![Device for cardinal orientation.](/img/compass.png){width="200"}
+
+:::
+
+::: {.column}
+
+![Can you name the capitals?](/img/capitals.png){width="200"}
+
+:::
+
+:::
+
 
 
 # Spoken speech perception
 
-From sound to meaning
+From sound to meaning.
 
 ## Structure of the speech signal
 
-continuous signal with no silent pauses between words
-
-we don’t put pauses at word boundaries when we talk so
-sounds melt into one another
-
-boundaries between individual spoken words are not easy to
-detect: ice cream vs. I scream
-
-speech segmentation = identifying word boundaries in
-continuous speech, when a word begins and ends
+![Oscillogram of a spoken sentence in Spanish.](/img/signal.png)
 
 ## Structure of the speech signal
 
-### Speech segmentation
+![Oscillogram of a spoken sentence in Spanish (segmented).](/img/signal-segmented.png)
 
-identifying boundaries between words produced in spoken language = when a word begins and ends
+## Structure of the speech signal
 
-through exposure to language, learners detect the likelihood (probabilities) with which sounds go together 
+**Continuous signal** with no silent pauses between words
 
-sounds that often appear together are more likely to form a word (ho-la ---> hola) 
+Boundaries between individual spoken words are not easy to detect:
 
-human infants learning native language(s) use the same mechanism in order to predict what sound comes next
+> "ice cream" vs. "I scream"
+
+<br>
+Speech segmentation
+: Identifying word boundaries in continuous speech, when a word begins and ends
 
 ## Structure of the speech signal
 
 ### Speech segmentation
 
-{{< video https://vimeo.com/21454995 >}}
+
+Through **exposure to language**, learners detect the likelihood (probabilities) with which sounds go together 
+
+Sounds that often appear together are more likely to form a word (*ho-la* → *hola*) 
+
+Human infants learning native language(s) use the same mechanism in order to predict what sound comes next.
+
+## Structure of the speech signal
+
+### Speech segmentation
+
+{{< video https://vimeo.com/21454995 width="900" height="500" >}}
 
 ## Structure of the speech signal
 
 ### Variability in speech
 
-another issue we experience when we are hearing an unknown language is the inter-speaker differences:
+Inter-speaker differences: the same speech sound, syllable or word sounds different depending on many factors.
 
-age = kids’ voice is different than adults’ voice in many dimensions (e.g., pitch, intonation)
-sex: female voice has higher pitch than male voice
-accent: variations in pronunciation e.g., American vs. British English
-dialect: variations in grammar and vocabulary; e.g., different words to express the same content
+* **Age**: kids' voice is different than adults' voice in many dimensions (e.g., pitch, intonation)
+* **Sex**: female voice has higher pitch than male voice
+* **Accent**: variations in pronunciation e.g., American vs. British English
+* **Dialect**: variations in grammar and vocabulary; e.g., different words to express the same content
 
 ## Structure of the speech signal
 
 ### Variability in speech
 
-9-month-old infants fail to recognize the same word when pronounced by speakers using different dialects
+Inter-speaker differences: the same speech sound, syllable or word sounds different depending on many factors.
 
-similar effects in adults learning new languages
+This does not stop us from identifying the same words and activating the same meanings!
+
+## Structure of the speech signal
+
+### Variability in speech
+
+**Development**: 9-month-old infants fail to recognize the same word when pronounced by speakers using different dialects
+
+**Experience**: Similar effects in adults learning new languages
 
 How do language learners deal with variability in the input?
 
-through increased exposure to language, we learn thatsome sets of properties are more constant than others (e.g., sounds of the same word go together no
-matter who is talking)
+Through increased exposure to language, we learn that some sets of properties are more constant than others (e.g., sounds of the same word go together no matter who is talking)
 
-we consider such regular properties a more reliable
-source of information, and ignore (although not
-completely) other sources
+We consider such regular properties a more reliable source of information, and ignore (although not completely) other sources
 
-Netflix documentary Babies, Episode ‘First Words’
+Netflix documentary Babies, Episode 'First Words'
 
 <https://www.youtube.com/watch?v=BFtbXwnBRg8>
 
@@ -371,7 +717,7 @@ Netflix documentary Babies, Episode ‘First Words’
 
 Carries out sensory info from the ear to the brain, through the auditory pathway, reaching out  the primary auditory cortex (A1), located in temporal lobes.
 
-Contralateral projections of the two ears to project to the opposite hemisphere (left ear’s nerve projects to the right temporal lobe and viceversa).
+Contralateral projections of the two ears to project to the opposite hemisphere (left ear's nerve projects to the right temporal lobe and viceversa).
 
 ## Brain underpinnings
 
@@ -383,7 +729,7 @@ However, anterior regions of left auditory cortex responds more to speech than n
 
 Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.
 
-Left hemisphere damages can result in a type of auditory agnosia = environmental sounds and music are identified, but not speech (which appears ”distorted and too fast”
+Left hemisphere damages can result in a type of auditory agnosia = environmental sounds and music are identified, but not speech (which appears "distorted and too fast"
 
 ## Brain underpinnings
 
@@ -391,7 +737,7 @@ Left hemisphere damages can result in a type of auditory agnosia = environmental
 
 advantage of right auditory pathway, that projects contralaterally to the left hemisphere in processing spoken language
 
-Dichotic listening: when two different linguistic sounds (e.g., syllables or words) are presented simultaneously to both ears, the sound coming from the right ear arrives faster at Wernicke’s area
+Dichotic listening: when two different linguistic sounds (e.g., syllables or words) are presented simultaneously to both ears, the sound coming from the right ear arrives faster at Wernicke's area
 
 when there is acoustic competition, participants repeat the syllables presented to the right ear more accurately  
 
@@ -559,7 +905,7 @@ Preferential looking
 
 Preferential looking (eye-tracking)
 
-* automatized recording of infant’s eye-movements (eye-position, fixations, saccades..)
+* automatized recording of infant's eye-movements (eye-position, fixations, saccades..)
 * based on infrared light (non-invasive) that create aa corneal reflection to locate eye position
 * pupillometry
 
@@ -581,7 +927,7 @@ High-Amplitude Sucking Procedure
 
 newborns is given a special pacifier that measures sucking rate
 
-* newborn’s sucking frequency controls the presentation of
+* newborn's sucking frequency controls the presentation of
 sounds until bored (habituation)
 * presentation of new sound: if newborn recognizes the change, she will increases the sucking rate
 
@@ -665,7 +1011,7 @@ at birth
 
 * humans show a preference for native spoken language vs. acoustically similar, non-language stimuli (e.g., complex sequence of non-linguistic sounds) since birth
 * preference for the vocalizations emitted by conspecifics is a common phenomenon in the animal kingdom
-* for the young of different species, including infants, their own- species sounds (e.g., speech) have a “survival” importance
+* for the young of different species, including infants, their own- species sounds (e.g., speech) have a “survival" importance
 
 ## Language acquisition
 
@@ -676,7 +1022,7 @@ at birth
 DeCasper & Fifer, 1980; DeCasper & Spence, 1986;
 for a review: Saffran, Werker & Werner, 2006
 
-newborns prefer their mother’s voice to other
+newborns prefer their mother's voice to other
 female voices
 * distinguish stories heard prenatally from other
 stories
@@ -708,12 +1054,12 @@ languages:
 3 months -old [Shultz & Vouloumanos, 2010]
 
 these comparisons allowed to isolate some properties of
-speech to see if infants’ preferences are driven by any of them
+speech to see if infants' preferences are driven by any of them
 
 [table]
 
-* if infants’ preferences were general, they would have preferred all biological sounds
-* if infants’ preferences were specific, they would have preferred speech (not all the other sounds)
+* if infants' preferences were general, they would have preferred all biological sounds
+* if infants' preferences were specific, they would have preferred speech (not all the other sounds)
 
 ## Language acquisition
 
@@ -753,17 +1099,17 @@ Eisenberg (1976); Gerhardt et al. (1992); Querleu et al., 1988; Lecaneut & Grani
 
 ## Prenatal experience with speech
 
-fetuses have access to the mother’s voice through bone
+fetuses have access to the mother's voice through bone
 conduction:
-* mother’s voice is carried along the vertebral column into her pelvis to the bones of fetus’ head, then directly to fetus’ inner ear
-* at ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother’s voice
+* mother's voice is carried along the vertebral column into her pelvis to the bones of fetus' head, then directly to fetus' inner ear
+* at ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother's voice
 
 ## Prenatal experience with speech
 
 fetal heart rate (FHR) is also used in prenatal research to
 investigate discrimination of sounds
 
-* placing a loudspeaker close to the mom’s abdomen
+* placing a loudspeaker close to the mom's abdomen
 * FHR is measured with actograph or ultrasound visualization
 * sound discrimination occurs when FHR changes (acceleration/deceleration of heart beat) in response to sound changes)
 * used a lot in clinical research
@@ -773,10 +1119,10 @@ investigate discrimination of sounds
 May, Byers-Heinlein, Gervain & Werker (2011)
 
 * research on fetal sound discrimination confirms the ability of fetuses to detect and respond to maternal voice
-• mother’s voice seems to be a salient auditory stimulus even
+• mother's voice seems to be a salient auditory stimulus even
 before birth, and has calming effect in fetuses
 • effects on post-natal auditory preferences and behavior
     + pre-natal experience can be one expMay, Byers-Heinlein, Gervain & Werker (2011)lanation of post-natal
-    + preferences for mother’s voice, and for speech
+    + preferences for mother's voice, and for speech
 
 # Thank you

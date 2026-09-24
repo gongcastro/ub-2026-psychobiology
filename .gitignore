@@ -221,3 +221,8 @@ __marimo__/
 **/*.quarto_ipynb
 /index_files/
 /*.html
+
+img/*.png
+img/.gif
+img/*.jpg
+img/*.jpeg
