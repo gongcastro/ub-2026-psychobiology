@@ -220,7 +220,6 @@ __marimo__/
 /.quarto/
 **/*.quarto_ipynb
 /index_files/
-/*.html
 
 img/*.png
 img/.gif

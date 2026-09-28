@@ -54,11 +54,6 @@ aside>p {
     font-family: monospace;
 }
 
-.mono {
-    font-family: monospace;
-    font-size: 30px;
-}
-
 .center {
     display: flex;
     justify-content: center;
@@ -112,11 +107,4 @@ aside>p {
         font-family: monospace !important;
     }
 
-}
-
-.reveal .slide {
-    .mermaid {
-        width: 100% !important;
-        max-width: none !important;
-    }
 }

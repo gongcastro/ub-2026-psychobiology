@@ -1,24 +1,62 @@
+*Neurodevelopment and Comparative Cognition group*
+
+::: {.colums}
+
+::: {.column width="60%"}
+
+
+![](/assets/img/irsjd.svg){ width="300"}
+
+<br>
+
+**Research interests**
+
+* What speech processing skills are newborns equipped with at birth?
+* What are the phylogenetic and ontogenetic origins of those skills?
+* How are those skills implemented in the brain (fNIRS)?
+
+:::
+
+::: {.column width="40%"}
+
+
+![](/assets/img/neurodevco.jpg){ width="400"}
+
+:::
+
+:::
+
+
 # What is language?
 
 ## But first... what is a chair?
 
-![Peter Finch/Getty Images](/assets/img/chair.png)
+<br>
+<br>
+<br>
+<br>
+
+![[Dries Buytaert](https://dri.es/album/drupalcon-brussels-2006/chairs)](/assets/img/chairs.jpg)
 
 ## What is language?
 
 <br>
 
-Figuring out a *complete*, *targeted* definition for something is very difficult. Defining **language** is specially difficult.
+Figuring out a *complete*, *targeted* definition for something is very difficult.
 
-We can aim to provide a *useful* definition. Let's try!
+Defining **language** is specially difficult.
+
+We can aim to provide a *useful* definition of "language". Let's try!
 
 ## What is language?
 
 <br>
 
-Figuring out a *complete*, *targeted* definition for something is very difficult. Defining **language** is specially difficult.
+Figuring out a *complete*, *targeted* definition for something is very difficult.
 
-We can aim to provide a *useful* definition. Let's try!
+Defining **language** is specially difficult.
+
+We can aim to provide a *useful* definition of "language". Let's try!
 
 <br>
 
@@ -131,13 +169,19 @@ These rules set the basis for **recursivity**: a given structure can embedd othe
 
 ## What is language?
 
+### Some examples: Protactile language
+
 <br>
 
 ::: center
 {{< video https://www.youtube.com/watch?v=8im72wFTa9Y title="Protactile language" width="800" height="400" >}}
 :::
 
+<https://www.youtube.com/watch?v=8im72wFTa9Y>
+
 ## What is language?
+
+### Some examples: Silbo Gomero
 
 <br>
 
@@ -145,7 +189,11 @@ These rules set the basis for **recursivity**: a given structure can embedd othe
 {{< video https://www.youtube.com/watch?v=C0CIRCjoICA title="Silbo gomero" width="800" height="400" >}}
 :::
 
+<https://www.youtube.com/watch?v=C0CIRCjoICA>
+
 ## What is language?
+
+### Some examples: Kuş dili
 
 <br>
 
@@ -153,8 +201,9 @@ These rules set the basis for **recursivity**: a given structure can embedd othe
 {{< video https://www.youtube.com/watch?v=l117wfB0g3o title="Kuş dili" width="800" height="400" >}}
 :::
 
-## What is language?
+<https://www.youtube.com/watch?v=l117wfB0g3o>
 
+## What is language?
 
 ::: {.columns}
 
@@ -204,11 +253,13 @@ Part of **Cognitive Sciences**.
 
 # Speech perception
 
-From sound to meaning.
+From sound to meaning
 
 ## Structure of the speech signal
 
-![Oscillogram of a spoken sentence in Spanish.](/assets/img/signal.png)
+![Oscillogram of a spoken sentence in English: "The dog is eating a bone"](/assets/img/signal.png)
+
+{{< audio file="/assets/sounds/audio.wav" >}}
 
 ## Structure of the speech signal
 
@@ -235,7 +286,7 @@ Boundaries between individual spoken words are not easy to detect:
 <br>
 
 ::: box
-**Statistical learning**: through exposure to language, learners detect the probability with which different sounds go together 
+**Statistical learning**: through exposure to language, learners detect the probability with which different sounds go together.
 :::
 
 ::: {.columns}
@@ -259,6 +310,8 @@ Human infants learning native language(s) use the same mechanism in order to pre
 
 :::
 
+<https://vimeo.com/21454995>
+
 ## Speech segmentation
 
 <br>
@@ -266,6 +319,8 @@ Human infants learning native language(s) use the same mechanism in order to pre
 ::: box
 **Statistical learning**: through exposure to language, learners detect the probability with which different sounds go together 
 :::
+
+Domain-general ability shared with non-human animals!
 
 ::: {.columns}
 
@@ -295,8 +350,8 @@ Human infants learning native language(s) use the same mechanism in order to pre
 |-------------|-----------------|
 | Age | kids' voice is different than adults' voice in many dimensions (e.g., pitch, intonation) |
 | Sex | female voice has higher pitch than male voice |
-| Accent | variations in pronunciation e.g., American vs. British English |
-| Dialect | variations in grammar and vocabulary; e.g., different words to express the same content |
+| Accent | variations in pronunciation (e.g., American vs. British English) |
+| Dialect | variations in grammar and vocabulary (e.g., different words to express the same content) |
 
 <br>
 
@@ -305,10 +360,12 @@ This does not stop us from identifying the same words and activating the same me
 ## Variability in speech
 
 <br>
+<br>
+
+Experience with a language is needed to solve this problem.
 
 * **Development**: 9-month-old infants fail to recognize the same word when pronounced by speakers using different dialects
 * **Second language learning**: Similar effects in adults learning new languages
-
 
 How do language learners deal with variability in the input?
 
@@ -324,6 +381,8 @@ Netflix documentary *Babies*, Episode *First Words*.
 
 {{< video https://www.youtube.com/watch?v=BFtbXwnBRg8 width="800" height="400" >}}
 
+<https://www.youtube.com/watch?v=BFtbXwnBRg8>
+
 # Basic brain anatomy
 
 ---
@@ -332,23 +391,31 @@ Netflix documentary *Babies*, Episode *First Words*.
 
 <https://www.brainfacts.org/3d-brain>
 
-![Brain macro-anatomy](/assets/img/brain-macro.png){ #fig-brain-macro }
+![Brain macro-anatomy](/assets/img/brain-macro.png)
 
+# Aphasia
 
-# Language impairments (aphasia)
+Also known as acquired language impairment.
 
 ## Aphasia
 
 <br>
 <br>
 
+::: box
+**Aphasia**: disorder that results from damage---usually from a stroke or traumatic brain injury---to areas of the brain that are responsible for language ([NIH](https://www.nidcd.nih.gov/health/aphasia))
+:::
+
+<br>
+
+Why does psycholinguistics/cognitive science care about language impairments? Why not study healthy participants with normative use of language?
+
+<br>
+
 The first **neuroanatomical mapping** of language functions (*speaking*, *understanding*, *reading*, *writing*) came from clinical studies on patients with **brain lesions** and language impairments.
 
 <br>
 
-::: box
-**Aphasia**: disorder that results from damage (usually from a stroke or traumatic brain injury) to areas of the brain that are responsible for language ([NIH](https://www.nidcd.nih.gov/health/aphasia))
-:::
 
 ## Main causes of aphasia
 
@@ -359,7 +426,11 @@ The first **neuroanatomical mapping** of language functions (*speaking*, *unders
 
 **Acquired brain damage** after stroke damage (most common), head injury, progressive neurological disorders (e.g., Alzheimer), brain tumor, encephalitis.
 
+<br>
+
 Damage is more frequently located on **left side of the brain**.
+
+<br>
 
 Can affect one or more communication modalities:
 
@@ -386,6 +457,9 @@ Damage localization is associated with different resulting patterns of language 
 
 ## Broca's aphasia
 
+<br>
+<br>
+
 ::: {.columns}
 
 ::: {.column}
@@ -396,7 +470,7 @@ Paul Broca (1861)
 * Speech comprehension intact
 * Post-mortem examination of the patient's brain: damage to the 3rd convolution of the left frontal lobe
 
-This area is now known as Broca's Area, and corresponds to Broadmann's area BA 44/45
+This area is now known as Broca's Area. Corresponds to Broadmann's area BA 44/45
 :::
 
 ::: {.column}
@@ -409,16 +483,34 @@ This area is now known as Broca's Area, and corresponds to Broadmann's area BA 4
 
 ## Broca's aphasia
 
-* Difficulties in **speech production**
-* **Speech comprehension** intact
+<br>
+<br>
+ 
+::: {.columns}
 
-What can we learn from the function of Broca's area? Broca's area involved in:
+::: {.column}
+
+More generally, patients with Broca's aphasia show key difficulties in **speech production**, with **speech comprehension** intact.
+
+What can we learn from the function of Broca's area?
+
+:::
+
+::: {.column}
+
+Broca's area involved in:
 
 * **Motor programing** of **articulatory movements** (together with supplementary motor area, basal ganglia and cerebellum)
 * **Grammatical processing** (activates when judging the grammaticality of a sentence)
 
+:::
+
+:::
+
 ## Broca's aphasia
 
+<br>
+<br>
 
 ::: {.columns}
 
@@ -436,26 +528,30 @@ What can we learn from the function of Broca's area? Broca's area involved in:
 
 :::
 
+<https://www.youtube.com/watch?v=JWC-cVQmEmY>
 
 ## Wernicke's aphasia
- 
+
+<br>
+<br>
+
 ::: {.columns}
 
 ::: {.column}
 
 Carl Wenicke (1874):
 
-* Difficulties in understanding language
+* **Difficulties in speech comprehension**
 * Fluent speech, typical speech rate, intact grammatical abilities
-* Produced speech does not have meaning (*word salad*)
+* **Produced speech does not have meaning** (*word salad*)
 * Post-mortem examination of the patient's brain: left temporal lobe
 
-This area is now known as Wernickes's area, and corresponds to Broadmann's area BA 22/24.
+This area is now known as Wernickes's area. Corresponds to Broadmann's area BA 22/24.
 :::
 
 ::: {.column}
 
-![Copyright © Society for Neuroscience (2017).](/assets/img/wernicke.jpg)
+![Copyright © Society for Neuroscience (2017).](/assets/img/wernicke.jpg){ width="400" }
 
 :::
 
@@ -464,10 +560,12 @@ This area is now known as Wernickes's area, and corresponds to Broadmann's area 
 
 ## Wernicke's aphasia
  
+
+<br><br>
+
 ::: {.columns}
 
 ::: {.column}
-
 
 Wernickes's area involved in:
 
@@ -480,11 +578,17 @@ Wernickes's area involved in:
 ::: {.column}
 
 {{< video https://www.youtube.com/watch?v=3oef68YabD0 width="500" height="500" >}}
+
 :::
 
 :::
+
+<https://www.youtube.com/watch?v=3oef68YabD0>
 
 ## Conduction aphasia
+
+<br>
+<br>
 
 ::: {.columns}
 
@@ -509,6 +613,9 @@ Wernickes's area involved in:
 
 ## Conduction aphasia
 
+<br>
+<br>
+
 ::: {.columns}
 
 ::: {.column}
@@ -532,8 +639,12 @@ Wernickes's area involved in:
 
 :::
 
+<https://www.youtube.com/watch?v=1yC-uX5VOiE>
 
 ## Anomic aphasia and Primary Progressive Aphasia (PPA)
+
+<br>
+<br>
 
 ::: {.columns}
 
@@ -583,9 +694,9 @@ Wernickes's area involved in:
 
 ::: {.column}
 
-* Many human cognitive functions are *lateralized*: brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)
+* Many human cognitive functions are **lateralized**: brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)
 * Some cognitive functions are more lateralized than others, the origin of this lateralization is unclear 
-* Cerebral hemispheres are interconnected by the corpus callosum: largest fiber system in the brain.
+* Cerebral hemispheres are interconnected by the **corpus callosum**: largest fiber system in the brain.
 
 :::
 
@@ -627,7 +738,7 @@ Wernickes's area involved in:
 
 ::: {.column}
 
-* Corpus callosum matures slowly over the first 5 to 10 years of human life 
+* Corpus callosum **matures slowly** over the first 5 to 10 years of human life 
 * Resection of corpus callosum or hemispherectomy in case of severe epilepsy in children under this age does not compromise the brain 
 * Brain rewires itself! 
 
@@ -677,6 +788,7 @@ Wernickes's area involved in:
 
 {{< video https://www.youtube.com/watch?v=kqaOLtNIz78 width="800" height="500" start="656" >}}
 
+<https://www.youtube.com/watch?v=kqaOLtNIz78>
 
 ## Lateralization of language functions
 
@@ -711,6 +823,8 @@ Can we map **language functions** to specific **brain areas**?
 
 {{< video https://www.youtube.com/watch?v=5K66gj5e4Mk width="800" height="500" start="656" >}}
 
+<https://www.youtube.com/watch?v=5K66gj5e4Mk>
+
 ## Neuroimaging
 
 <br><br>
@@ -724,41 +838,27 @@ Can we map **language functions** to specific **brain areas**?
 
 We can study healthy participants **non-invasively**!
 
-## Studying language in healthy participants
+## Neuroimaging
 
-<br> 
+<br>
 
-1) Participants perform language processing tasks during brain imaging
+1) Participants perform language processing tasks during **brain imaging** or awake surgery (pr volunteers getting brain surgery for a language-unrelated issue).
 2) Experimental design is used to map brain activity in some areas to the stimuli presented or to paricipant's performance
 
 <br>
 
 ![<https://www.psytoolkit.org/experiment-library/experiment_ldt.html>](/assets/img/lexical.png)
 
-## Studying language in healthy participants
+## Speech errors
 
 <br> 
 
-* Language processing tasks (e.g., Lexical Decision Task)
-* Speech errors or slips of the tongue or *lapsus linguae*:
-
-Speech errors provide reveal the sequential order of language production. 
+Speech errors or slips of the tongue or *lapsus linguae*: Speech errors provide reveal the sequential order of language production. 
 
 * Example: *reading list* → *leading rist* (phoneme anticipation)
 * Insight: The speaker has selected all words in the phase before production!
 
-## Studying language in healthy participants
-
-<br> 
-
-* Language processing tasks (e.g., Lexical Decision Task)
-* Speech errors or slips of the tongue or *lapsus linguae*
-* *Tip-of-the-tongue* phenomenon
-
-
-## Studying language in healthy participants
-
-### Tip of the tongue
+## *Tip-of-the-tongue* phenomenon
 
 ::: {.columns}
 
@@ -909,118 +1009,7 @@ Some brain areas (mostly located in **left lateral frontal and temporal areas**)
 ![@fedorenko2024language](/assets/img/fedorenko-2.png)
 
 
-# Visual speech perception (reading)
-
-From text to meaning
-
-## Literacy
-
-<br>
-
-the ability to read and write is essentially a cultural invention albeit of great significance;   
-
-ability to use printed and written materials (language, numbers, computer scripts) to gain knowledge 
-
-pre-historic literacy = earliest form of written communication dates back to 3500 BCE, in Sumer (southern Mesopotamia)  
-
-literacy became universal in Western cultures 100 years ago; for 95% of our history the Homo Sapiens was pre-literate
-
-## Literacy
-
-![](/assets/img/literacy.png)
-
-## Literacy
-
-<br>
-
-reading and writing are astonishing complex skills
-
-learning to read and write requires a dedicated neuro-cognitive system which comprises other perceptual and cognitive functions: 
-
-* basic visual skills (visual recognition)
-* phonological processing (knowledge of the sounds of language)
-* oculomotor control (ability to control eye movements)
-* attention
-* memory
-* learning
-* high-level language capacities to detect meanings 
-* human brain has not evolved specifically for literacy, we have to learn it!
-
-## READING AS LEARNED EXPERT SYSTEM
-
-visual word recognition = how we recognize individual printed words
-cognitive mechanism that allows reader to map orthography (printed words) into phonology (sounds) 
-computational models provide useful info to understand how reading works 
-artificial neural networks – the most used models that simulate how brain neurons respond during reading 
-
-## READING AS LEARNED EXPERT SYSTEM
-
-word superiority effect = detection of a single letter (R) is faster in the context of a word (CARPET) or plausible non-word (HARPOT) than a random string of letter (CTRPAE)
-visual word recognition does not work letter-by-letter 
-our brain is likely to process clusters of letters (the word as a whole) rather than individual letters
-
-## READING AS LEARNED EXPERT SYSTEM
-
-![](/assets/img/read.png)
-
-## Visual word recognition
-
-## Characteristics of VWFA
-
-## Reading impairments
-
-### Pure alexia
-
-severe reading problems, patients read letter-by-letter 
-impairment of the parallel processing of letters
-reading difficulty increases with word length
-other language skills are intact but naming is also impaired, especially for colors
-
-## Reading impairments
-
-### Pure alexia
-
-principally caused by infarct to the left posterior cerebral artery, that perfuses corpus callosum and left visual cortex 
-
-damage at inferior longitudinal fasciculus that connects VWFA to occipital lobe, impairing transmission of visual info to VWFA
-
-## Reading impairments
-
-### Pure alexia
-
-patients can still write because pathways connecting left-sided language areas to motor areas are intact
-rehabilitation may work (e.g., reading out loud to stimulate the damaged system in the brain)
-other associated signs: short-term memory loss, hemianopia (blindess over half vision field)
-controversy about whether the deficit impairs general visual processing or reading-specific mechanisms or both (problems at one level would affect the other, and vice versa)
-
-## Reading impairments
-
-### Acquired surface dislexia
-
-mispronunciation of irregular words = patients read all words following standard pronunciation rules
-regularization errors: patients cannot recognize a word as a whole, and retrieve pronunciation from memory, e.g., shoe = /sho/ as in show
-principal damage in left occipito-temporal area (VWFA)
-
-## Reading impairments
-
-### Acquired phonological dislexia
-
-inability to read non-words ---> opposite of Surface Dyslexia
-ability to read words is not impaired
-sometimes the distinction is more accurate and points to the familiarity of the word = phonological dyslexics are able to read familiar but not unfamiliar words (although plausible), nor pronounceable non-words
-impairment of the grapheme-phoneme conversion
-
-## Reading impairments
-
-### Acquired deep dislexia
-
-semantic errors when reading words, e.g., CAT ---> dog
-inability to read non-words
-impairment of both grapheme-phoneme conversion, and lexical-semantical system 
-typically accompanied by impairments to language abilities other than reading, as the damage in the brain seems to extend to a huge portion of the left hemisphere
-
-
-# Language in the infant brain
+# Language research methods in infancy
 
 
 ## Language acquisition
@@ -1050,22 +1039,18 @@ Research with infants is challenging!
 * **Physiological** (cardiac rhythm)
 * **Brain imaging** (EEG, fMRI, MEG, fNIRS)
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
-
-### Behavioural methods
 
 Change in behavioral response = Ability to discriminate between two
 events
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
-
-### Behavioural methods
 
 **Headturn Preference Procedure (HPP)** [@nelson1995head]
 
@@ -1077,12 +1062,10 @@ screens
 the sounds as long as she wants
 * Sound stops when baby stops looking
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
-
-### Behavioural methods
 
 **Preferential Looking paradigm** [@golinkoff1987eyes]
 
@@ -1091,12 +1074,10 @@ the sounds as long as she wants
 * Determines if infants can discriminate one stimulus from another by measuring how much time they look at them
 * Images can be paired with sounds to measure acoustic preferences through visual preferences
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
-
-### Behavioural methods
 
 **Preferential looking (eye-tracking)**
 
@@ -1118,52 +1099,51 @@ the sounds as long as she wants
 
 :::
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
-
-### Behavioural methods
 
 **Habituation / Dishabituation**
 
 * Showing the same stimulus repeatedly until infant shows a clear decrease in looking time
 * When a novel stimulus is presented, an increase in looking time should occur
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
 
-### Behavioural methods
-
-High-Amplitude Sucking Procedure [@siqueland1969visual]
+**High-Amplitude Sucking Procedure** [@siqueland1969visual]
 
 Newborns is given a special pacifier that measures sucking rate
 
-* Newborn's sucking frequency controls the presentation of
+* Newborn's **sucking frequency** controls the presentation of
 sounds until bored (habituation)
 * Presentation of new sound: if newborn recognizes the change, she will increases the sucking rate
 
-## Research methods in infancy
+## Behavioural methods
 
 <br>
 <br>
 
-### Neuroimaging methods
+{{< video https://www.youtube.com/watch?v=rJQh8IpizwU width="800" height="500" >}}
 
-A change in neurophisiological response contingent to different types of stimulation may reveal differences in underlying procecesing between stimulus types.
+<https://www.youtube.com/watch?v=rJQh8IpizwU>
 
-## Research methods in infancy
+## Neuroimaging methods
 
 <br>
 <br>
 
-### Neuroimaging methods
+A change in **neurophysiological response contingent to different types of stimulation** may reveal differences in underlying procecesing between stimulus types.
 
-Magnetoencephalography (MEG)
+## Neuroimaging methods
 
-maps brain activity
+<br>
+<br>
+
+**Magnetoencephalography** (MEG)
 
 * Records magnetic fields caused by electrical
 activity naturally produced in the brain
@@ -1171,44 +1151,38 @@ activity naturally produced in the brain
 * *Pros*: baby is free to move; good spatial resolution
 * *Cons*: huge, very expensive
 
-## Research methods in infancy
+## Neuroimaging methods
 
 <br>
 <br>
 
-### Neuroimaging methods
+**Functional Magnetic Resonance** (fMRI)
 
-Functional Magnetic Resonance (fMRI)
-
-* Measures brain activity by detecting hemodynamic response in the brain
+* Measures brain activity by detecting **hemodynamic response** in the brain
 (changes in blood flow)
 * *Cons*: lot of noise, babies should move as less as possible as movements can cause artifacts (distortions of images)
 
-## Research methods in infancy
+## Neuroimaging methods
 
 <br>
 <br>
 
-### Neuroimaging methods
-
-Electroencephalography (EEG)
+**Electroencephalography** (EEG)
 
 Records electrical activity naturally produced by the brain
 
-* Measures voltage fluctuations resulting from ionic current within neurons (ERPs) in response to stimuli (images, sounds etc)
-* Pros: cheaper; more baby-friendly than other techniques; good to measure timecourse of activation
-* Cons: also sensitive to motion
+* Measures **voltage fluctuations** resulting from ionic current within neurons (ERPs) in response to stimuli (images, sounds etc)
+* *Pros*: cheaper; more baby-friendly than other techniques; good to measure timecourse of activation
+* *Cons*: also sensitive to motion
 
-## Research methods in infancy
+## Neuroimaging methods
 
 <br>
 <br>
 
-### Neuroimaging methods
+**Functional Near-Infrared Spectroscopy** (fNIRS)
 
-Functional Near-Infrared Spectroscopy (fNIRS)
-
-Measures hemodynamic responses in the brain during stimuli presentation (images, sounds, etc)
+Measures **hemodynamic responses** in the brain during stimuli presentation (images, sounds, etc.).
 
 * Infrared light goes into the scalp and
 comes back
@@ -1219,60 +1193,116 @@ comes back
 
 # Language acquisition
 
+## Language acquisition
+
 <br>
-<br>
 
-## At birth
-
-2- to 5- day-old neonates [@gomez2014language]:
-
-* *blif* vs. *lbif* = well-formed vs. ill-formed syllables in most languages
-* Left temporal and right fronto-parietal areas activate when syllables are presented
-* fNIRS measures differences in blood oxygen level in these areas in response to well-formed (possible) syllables vs. ill-formed (impossible) syllables
+![@birdsong2018plasticity](/assets/img/periods.png)
 
 
 ## Preference for speech 
 
-At birth
-
-* Humans show a preference for native spoken language vs. acoustically similar, non-language stimuli (e.g., complex sequence of non-linguistic sounds) since birth
-* Preference for the vocalizations emitted by conspecifics is a common phenomenon in the animal kingdom
-* For the young of different species, including infants, their own- species sounds (e.g., speech) have a "survival" importance
-
-## Preference for speech 
+<br>
+<br>
 
 At birth:
 
-* Newborns prefer their mother's voice to other
-female voices [@decasper_fetal_1994]
-* Newborns stories heard prenatally from other
-stories [@decasper_prenatal_1986]
-* Native speech vs. non-native speech [@shultz2010three]
+* Humans show a **preference for native spoken language** vs. acoustically similar, non-language stimuli (e.g., complex sequence of non-linguistic sounds) since birth
+* Preference for the **vocalizations emitted by conspecifics** is a common phenomenon in the animal kingdom
+* For the young of different species, including infants, their own- species sounds (e.g., speech) have a "survival" importance
+
 
 ## Preference for speech
 
+<br>
+<br>
+
+At birth:
+
+* Newborns prefer their **mother's voice** to other female voices [@decasper_fetal_1994]
+* Newborns **stories heard prenatally** from other stories [@decasper_prenatal_1986]
+* **Native speech** vs. non-native speech [@shultz2010three]
+
+## Preference for speech
+
+<br>
+<br>
+
 Three month-olds [@shultz2010three]:
 
-Prefer non-native speech (e.g., Russian and
-Japanese presented to English-learning infants) vs.
-natural sounds sharing properties with spoken
-languages:
+**Prefer non-native speech** (e.g., Russian and Japanese presented to English-learning infants) vs. natural sounds sharing properties with spoken languages:
 
-* Monkey calls
-* Human non-communicative vocalizations (e.g., sneezes)
-* Human communicative vocalizations (e.g., agreement)
-* Environmental sounds (e.g., running water)
+<br>
+<br>
 
+|  | Speech | Rhesus macaque calls | Environmental | Human noncomm. vocalizations | Human comm. vocalizations |
+|---|:-:|:-:|:-:|:-:|:-:|
+| Linguistic | ✓ |  |  |  |  |
+| Human | ✓ |  |  | ✓ | ✓ |
+| Communicative | ✓ | ✓ |  |  | ✓ |
+| Biological | ✓ | ✓ |  | ✓ | ✓ |
+
+
+## Preference for speech
+
+<br>
+<br>
+
+Three month-olds [@shultz2010three]:
+
+**Prefer non-native speech** (e.g., Russian and Japanese presented to English-learning infants) vs. natural sounds sharing properties with spoken languages:
+
+<br>
+<br>
+
+![@shultz2010three](/assets/img/shultz.png)
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+::: center
+Which one sounds better?
+:::
+
+<br>
+
+::: center
+***blif* or *lbif***
+:::
+
+## Phonotactics at birth?
+
+<br>
+<br>
+
+2-to-5-day-old neonates [@gomez2014language]:
+
+* **Linguistic universal**: *blif* (well-formed syllable) vs. *lbif* (ill-formed syllable)
+* Left temporal and right fronto-parietal areas show larger haemodynamic responses when well-formed syllables are presented
+* fNIRS measures differences in blood oxygen level in these areas in response to well-formed (possible) syllables vs. ill-formed (impossible) syllables
+
+![@gomez2014language](/assets/img/gomez.jpeg)
 
 ## Language hemispheric dominance in infants
  
+<br>
+<br>
+
 ::: {.columns}
 
 ::: {.column}
 
-@pena2003sounds:
+Some evidence of language lateralization at birth [@pena2003sounds]:
 
-* Left temporal region responds differently to forward speech vs. backward speech vs. silence
+* **Left temporal region responds differently** to forward speech vs. backward speech vs. silence
 * Right temporal region does not
 
 :::
@@ -1286,48 +1316,56 @@ languages:
 :::
 
 ## Language hemispheric dominance in infants
+ 
+::: {.columns}
 
-Dehaene-Lambertz et al. (2002). Science
+::: {.column}
 
-fMRI study with 2- to 3-month-old infants shows activation of left
-(not right) temporal and parietal areas in response to speech
+<br>
+<br>
 
-## Prenatal experience with speech
+@dehaene2002functional: fMRI study with 2- to 3-month-old infants
 
-fetuses do not experience speech as we do: only low-frequency components
-of speech can be heard (pitch, rhythm, some phonetic information)
+<br>
 
-Eisenberg (1976); Gerhardt et al. (1992); Querleu et al., 1988; Lecaneut & Granier-Deferre (1993); Lasky & Trickey (2005)
+Evidence of activation of **left (not right) temporal and parietal areas** in response to speech.
 
-## Prenatal experience with speech
+:::
 
-fetuses have access to the mother's voice through bone
-conduction:
-* mother's voice is carried along the vertebral column into her pelvis to the bones of fetus' head, then directly to fetus' inner ear
-* at ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother's voice
+::: {.column}
 
-## Prenatal experience with speech
+![@dehaene2002functional](/assets/img/dehaene.png){width="400"}
 
-fetal heart rate (FHR) is also used in prenatal research to
-investigate discrimination of sounds
+:::
 
-* placing a loudspeaker close to the mom's abdomen
-* FHR is measured with actograph or ultrasound visualization
-* sound discrimination occurs when FHR changes (acceleration/deceleration of heart beat) in response to sound changes)
-* used a lot in clinical research
+:::
+
+
 
 ## Prenatal experience with speech
 
-May, Byers-Heinlein, Gervain & Werker (2011)
+<br> 
+<br>
 
-* research on fetal sound discrimination confirms the ability of fetuses to detect and respond to maternal voice
-• mother's voice seems to be a salient auditory stimulus even
-before birth, and has calming effect in fetuses
-• effects on post-natal auditory preferences and behavior
-    + pre-natal experience can be one expMay, Byers-Heinlein, Gervain & Werker (2011)lanation of post-natal
-    + preferences for mother's voice, and for speech
+Fetuses do not experience speech as we do: **only low-frequency components of speech can be heard** (e.g., pitch, rhythm, some phonetic information) [@moon2017prenatal; @eggermont2011morphological; @gerhardt2000fetal].
 
+Fetuses have access to the mother's voice mainly through **bone
+conduction**:
+    
+* Mother's voice is carried along the vertebral column into her pelvis to the bones of fetus' head, then directly to fetus' inner ear
+* At ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother's voice
 
+## Prenatal experience with speech
+
+<br>
+<br>
+
+Research on fetal sound discrimination confirms the **ability of fetuses to detect and respond to maternal voice** [@may2011language]:
+
+Mother's voice seems to be a **salient auditory stimulus even before birth**, and has calming effect in fetuses
+
+* Effects on post-natal auditory preferences and behavior
+* Pre-natal experience can be one explanation of post-natal preferences for mother's voice, and for speech
 
 # Thank you
 

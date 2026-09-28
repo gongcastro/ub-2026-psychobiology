@@ -3,6 +3,7 @@ project:
     - index.qmd
   execute-dir: project
 
+
 title: Language
 subject: Fonaments de Psicobiologia
 subtitle: Structure, comprehension, production, and acquisition
@@ -23,7 +24,8 @@ format:
   revealjs:
     scrollable: true
     include-after-body: assets/templates/hide-footer-except-title.html
-
+    output-file: slides.html
+    
 css: assets/style/style.scss
 bibliography: assets/bibliography.bib
 email-obfuscation: javascript

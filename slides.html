@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/tabby.min.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
+
+  <meta name="author" content="Gonzalo García-Castro">
+  <meta name="dcterms.date" content="2026-09-29">
+  <title>Language</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-f2179ea663b4ae55eccb3edd6e46f676.css">
+  <link rel="stylesheet" href="assets/style/style.scss">
+  <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Language</h1>
+  <p class="subtitle">Structure, comprehension, production, and acquisition</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<a href="gongcastro.github.io">Gonzalo García-Castro</a> <a href="https://orcid.org/0000-0002-8553-4209" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:gonzalo.garcia@sjd.es">gonzalo.garcia@sjd.es</a>
+</div>
+        <p class="quarto-title-affiliation">
+            Institut de Recerca Sant Joan de Déu (IRSJD)
+          </p>
+    </div>
+</div>
+
+  <p class="date">September 29, 2026</p>
+</section>
+<section class="slide level2">
+
+<p><em>Neurodevelopment and Comparative Cognition group</em></p>
+<div class="colums">
+<div class="column" style="width:60%;">
+<p><img data-src="./assets/img/irsjd.svg" width="300"></p>
+<p><br></p>
+<p><strong>Research interests</strong></p>
+<ul>
+<li>What speech processing skills are newborns equipped with at birth?</li>
+<li>What are the phylogenetic and ontogenetic origins of those skills?</li>
+<li>How are those skills implemented in the brain (fNIRS)?</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="./assets/img/neurodevco.jpg" width="400"></p>
+</div></div>
+</section>
+<section>
+<section id="what-is-language" class="title-slide slide level1 center">
+<h1>What is language?</h1>
+
+</section>
+<section id="but-first-what-is-a-chair" class="slide level2">
+<h2>But first… what is a chair?</h2>
+<p><br> <br> <br> <br></p>
+
+<img data-src="./assets/img/chairs.jpg" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://dri.es/album/drupalcon-brussels-2006/chairs">Dries Buytaert</a></p></section>
+<section id="what-is-language-1" class="slide level2">
+<h2>What is language?</h2>
+<p><br></p>
+<p>Figuring out a <em>complete</em>, <em>targeted</em> definition for something is very difficult.</p>
+<p>Defining <strong>language</strong> is specially difficult.</p>
+<p>We can aim to provide a <em>useful</em> definition of “language”. Let’s try!</p>
+</section>
+<section id="what-is-language-2" class="slide level2">
+<h2>What is language?</h2>
+<p><br></p>
+<p>Figuring out a <em>complete</em>, <em>targeted</em> definition for something is very difficult.</p>
+<p>Defining <strong>language</strong> is specially difficult.</p>
+<p>We can aim to provide a <em>useful</em> definition of “language”. Let’s try!</p>
+<p><br></p>
+<div class="box">
+<p>Finite system of symbols (words) that can be combined using rules to make a virtually infinite number of distinct sentences.</p>
+</div>
+<ul>
+<li>Unique to humans, who are predisposed to acquire it</li>
+<li>Basic function underlying language are largely shared with non-human animals</li>
+</ul>
+</section>
+<section id="what-is-language-3" class="slide level2">
+<h2>What is language?</h2>
+<p><br></p>
+<div class="box">
+<p>Finite system of <span style="background: black; color: white">symbols</span> (words) that can be combined using rules to make a virtually infinite number of distinct sentences.</p>
+</div>
+</section>
+<section id="what-is-language-4" class="slide level2">
+<h2>What is language?</h2>
+<h3 id="language-is-made-of-symbols.">Language is made of symbols.</h3>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><br> <br></p>
+<p><strong>Words</strong> (symbols, in general) hold <strong>arbitrary</strong> relationship between form and meaning (with few exceptions)</p>
+</div><div class="column" style="width:60%;">
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/tree.jpg" width="310"></p>
+<figcaption>Does the word <em>tree</em> sound, look, or feel like a tree?</figcaption>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="what-is-language-5" class="slide level2">
+<h2>What is language?</h2>
+<p><br></p>
+<div class="box">
+<p><span style="background: black; color: white">Finite</span> system of symbols (words) that can be combined using rules to make a virtually infinite number of distinct sentences.</p>
+</div>
+</section>
+<section id="what-is-language-6" class="slide level2">
+<h2>What is language?</h2>
+<h3 id="limited-number-of-available-symbols-in-a-language">Limited number of available symbols in a language</h3>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><strong>Limited number of words</strong> in a language.</p>
+</div><div class="column" style="width:70%;">
+<table class="caption-top">
+<caption>Adapted from <span class="citation" data-cites="brysbaert_how_2016">Brysbaert et al. (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>.</caption>
+<thead>
+<tr class="header">
+<th>Person</th>
+<th>Words</th>
+<th>Lemmas</th>
+<th>Base words</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>20-year-old</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Low end</td>
+<td>84,000</td>
+<td>27,100</td>
+<td>6,100</td>
+</tr>
+<tr class="odd">
+<td>Median</td>
+<td></td>
+<td>42,000</td>
+<td>11,100</td>
+</tr>
+<tr class="even">
+<td>High end</td>
+<td>292,000</td>
+<td>51,700</td>
+<td>14,900</td>
+</tr>
+<tr class="odd">
+<td><em>60-year-old</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Low end</td>
+<td>157,000</td>
+<td>35,100</td>
+<td>9,000</td>
+</tr>
+<tr class="odd">
+<td>Median</td>
+<td></td>
+<td>48,200</td>
+<td>13,400</td>
+</tr>
+<tr class="even">
+<td>High end</td>
+<td>543,000</td>
+<td>56,400</td>
+<td>16,700</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+</section>
+<section id="what-is-language-7" class="slide level2">
+<h2>What is language?</h2>
+<p><br></p>
+<div class="box">
+<p>Finite system of symbols (words) that can be combined using <span style="background: black; color: white">rules</span> to make a virtually infinite number of distinct sentences.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p>Words (and other linguistic units) are <strong>combined in systematic ways</strong>, following rules we know as <strong>grammar</strong>.</p>
+<p>These rules set the basis for <strong>recursivity</strong>: a given structure can embedd other structures, resulting in a <em>generative</em> (infinite) range of patterns.</p>
+</div><div class="column" style="width:55%;">
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/recursivity.jpg" width="300"></p>
+<figcaption>A recursive pattern can be embedded in itself.</figcaption>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section id="what-is-language-8" class="slide level2">
+<h2>What is language?</h2>
+<p><br> <br></p>
+<p>7,745 identified languages (<a href="https://glottolog.org/">Glottolog</a>)</p>
+<table class="caption-top">
+<caption>Agglomerated Endangerment Status <span class="citation" data-cites="hammarstrom_glottologglottolog_2025">(<a href="#/references" role="doc-biblioref" onclick="">Hammarström et al. 2025</a>)</span></caption>
+<thead>
+<tr class="header">
+<th>AES status</th>
+<th># of languages</th>
+<th>% of languages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>not endangered</td>
+<td>2643</td>
+<td>34.13%</td>
+</tr>
+<tr class="even">
+<td>threatened</td>
+<td>1595</td>
+<td>20.59%</td>
+</tr>
+<tr class="odd">
+<td>shifting</td>
+<td>1805</td>
+<td>23.31%</td>
+</tr>
+<tr class="even">
+<td>moribund</td>
+<td>422</td>
+<td>5.45%</td>
+</tr>
+<tr class="odd">
+<td>nearly extinct</td>
+<td>299</td>
+<td>3.86%</td>
+</tr>
+<tr class="even">
+<td>extinct</td>
+<td>981</td>
+<td>12.67%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-is-language-9" class="slide level2">
+<h2>What is language?</h2>
+<h3 id="some-examples-protactile-language">Some examples: Protactile language</h3>
+<p><br></p>
+<div class="center">
+<iframe data-external="1" src="https://www.youtube.com/embed/8im72wFTa9Y" width="800" height="400" title="Protactile language" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=8im72wFTa9Y" class="uri">https://www.youtube.com/watch?v=8im72wFTa9Y</a></p>
+</section>
+<section id="what-is-language-10" class="slide level2">
+<h2>What is language?</h2>
+<h3 id="some-examples-silbo-gomero">Some examples: Silbo Gomero</h3>
+<p><br></p>
+<div class="center">
+<iframe data-external="1" src="https://www.youtube.com/embed/C0CIRCjoICA" width="800" height="400" title="Silbo gomero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=C0CIRCjoICA" class="uri">https://www.youtube.com/watch?v=C0CIRCjoICA</a></p>
+</section>
+<section id="what-is-language-11" class="slide level2">
+<h2>What is language?</h2>
+<h3 id="some-examples-kuş-dili">Some examples: Kuş dili</h3>
+<p><br></p>
+<div class="center">
+<iframe data-external="1" src="https://www.youtube.com/embed/l117wfB0g3o" width="800" height="400" title="Kuş dili" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=l117wfB0g3o" class="uri">https://www.youtube.com/watch?v=l117wfB0g3o</a></p>
+</section>
+<section id="what-is-language-12" class="slide level2">
+<h2>What is language?</h2>
+<div class="columns">
+<div class="column">
+<div class="box">
+<p><strong>Linguistics</strong>: scientific study of language.</p>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/linguistics.png"></p>
+<figcaption><a href="https://blogonlinguistics.wordpress.com" class="uri">https://blogonlinguistics.wordpress.com</a></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="what-is-language-13" class="slide level2">
+<h2>What is language?</h2>
+<div class="columns">
+<div class="column">
+<div class="box">
+<p><strong>Psycholinguistics</strong>: scientific (experimental) study of how language is used, and how it is implemented in the brain.</p>
+</div>
+<p>Part of <strong>Cognitive Sciences</strong>.</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/hexagon.png"></p>
+<figcaption><span class="citation" data-cites="van2024reclaiming">Van Rooij et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="what-is-language-14" class="slide level2">
+<h2>What is language?</h2>
+<p><br> <br></p>
+
+<img data-src="./assets/img/comprehension-production.png" class="r-stretch quarto-figure-center"><p class="caption">A simplification of the speech comprehension and production loop (simplified).</p></section></section>
+<section>
+<section id="speech-perception" class="title-slide slide level1 center">
+<h1>Speech perception</h1>
+<p>From sound to meaning</p>
+</section>
+<section id="structure-of-the-speech-signal" class="slide level2">
+<h2>Structure of the speech signal</h2>
+
+<img data-src="./assets/img/signal.png" class="r-stretch quarto-figure-center"><p class="caption">Oscillogram of a spoken sentence in English: “The dog is eating a bone”</p><figure class=""><audio controls="" src="/assets/sounds/audio.wav" type="audio/wav">Your browser does not support the audio tag.</audio><figcaption></figcaption></figure>
+</section>
+<section id="structure-of-the-speech-signal-1" class="slide level2">
+<h2>Structure of the speech signal</h2>
+
+<img data-src="./assets/img/signal-segmented.png" class="r-stretch quarto-figure-center"><p class="caption">Oscillogram of a spoken sentence in Spanish (segmented).</p></section>
+<section id="speech-segmentation" class="slide level2">
+<h2>Speech segmentation</h2>
+<p><br></p>
+<p><strong>Continuous signal</strong> with no silent pauses between words.</p>
+<p>Boundaries between individual spoken words are not easy to detect:</p>
+<blockquote>
+<p>“ice cream” vs.&nbsp;“I scream”</p>
+</blockquote>
+<p><br></p>
+<div class="box">
+<p><strong>Speech segmentation</strong>: Identifying word boundaries in continuous speech, when a word begins and ends.</p>
+</div>
+</section>
+<section id="speech-segmentation-1" class="slide level2">
+<h2>Speech segmentation</h2>
+<p><br></p>
+<div class="box">
+<p><strong>Statistical learning</strong>: through exposure to language, learners detect the probability with which different sounds go together.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Sounds that often appear together are more likely to form a word</p>
+<blockquote>
+<p><em>ho-la</em> → <em>hola</em></p>
+</blockquote>
+<p>Human infants learning native language(s) use the same mechanism in order to predict what sound comes next.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-external="1" src="https://player.vimeo.com/video/21454995" width="400" height="350" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
+<p><a href="https://vimeo.com/21454995" class="uri">https://vimeo.com/21454995</a></p>
+</section>
+<section id="speech-segmentation-2" class="slide level2">
+<h2>Speech segmentation</h2>
+<p><br></p>
+<div class="box">
+<p><strong>Statistical learning</strong>: through exposure to language, learners detect the probability with which different sounds go together</p>
+</div>
+<p>Domain-general ability shared with non-human animals!</p>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/saffran.png" width="400"></p>
+<figcaption><span class="citation" data-cites="arciuli2018promise">Arciuli and Conway (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/stat.png" width="400"></p>
+<figcaption><span class="citation" data-cites="johnson2020mechanisms">Johnson (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="variability-in-speech" class="slide level2">
+<h2>Variability in speech</h2>
+<p><br></p>
+<div class="box">
+<p><strong>Inter-speaker differences</strong>: the same speech sound, syllable or word sounds different depending on many factors.</p>
+</div>
+<table class="caption-top">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>kids’ voice is different than adults’ voice in many dimensions (e.g., pitch, intonation)</td>
+</tr>
+<tr class="even">
+<td>Sex</td>
+<td>female voice has higher pitch than male voice</td>
+</tr>
+<tr class="odd">
+<td>Accent</td>
+<td>variations in pronunciation (e.g., American vs.&nbsp;British English)</td>
+</tr>
+<tr class="even">
+<td>Dialect</td>
+<td>variations in grammar and vocabulary (e.g., different words to express the same content)</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>This does not stop us from identifying the same words and activating the same meanings!</p>
+</section>
+<section id="variability-in-speech-1" class="slide level2">
+<h2>Variability in speech</h2>
+<p><br> <br></p>
+<p>Experience with a language is needed to solve this problem.</p>
+<ul>
+<li><strong>Development</strong>: 9-month-old infants fail to recognize the same word when pronounced by speakers using different dialects</li>
+<li><strong>Second language learning</strong>: Similar effects in adults learning new languages</li>
+</ul>
+<p>How do language learners deal with variability in the input?</p>
+<p><br></p>
+<p>Through increased <strong>exposure to language</strong>, we learn that some sets of properties are more constant than others (e.g., sounds of the same word go together no matter who is talking).</p>
+</section>
+<section id="variability-in-speech-2" class="slide level2">
+<h2>Variability in speech</h2>
+<p><br></p>
+<p>Netflix documentary <em>Babies</em>, Episode <em>First Words</em>.</p>
+<iframe data-external="1" src="https://www.youtube.com/embed/BFtbXwnBRg8" width="800" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=BFtbXwnBRg8" class="uri">https://www.youtube.com/watch?v=BFtbXwnBRg8</a></p>
+</section></section>
+<section>
+<section id="basic-brain-anatomy" class="title-slide slide level1 center">
+<h1>Basic brain anatomy</h1>
+
+</section>
+<section class="slide level2">
+
+<p><a href="https://atlases.ebrains.eu/viewer/" class="uri">https://atlases.ebrains.eu/viewer/</a></p>
+<p><a href="https://www.brainfacts.org/3d-brain" class="uri">https://www.brainfacts.org/3d-brain</a></p>
+
+<img data-src="./assets/img/brain-macro.png" class="r-stretch quarto-figure-center"><p class="caption">Brain macro-anatomy</p></section></section>
+<section>
+<section id="aphasia" class="title-slide slide level1 center">
+<h1>Aphasia</h1>
+<p>Also known as acquired language impairment.</p>
+</section>
+<section id="aphasia-1" class="slide level2">
+<h2>Aphasia</h2>
+<p><br> <br></p>
+<div class="box">
+<p><strong>Aphasia</strong>: disorder that results from damage—usually from a stroke or traumatic brain injury—to areas of the brain that are responsible for language (<a href="https://www.nidcd.nih.gov/health/aphasia">NIH</a>)</p>
+</div>
+<p><br></p>
+<p>Why does psycholinguistics/cognitive science care about language impairments? Why not study healthy participants with normative use of language?</p>
+<p><br></p>
+<p>The first <strong>neuroanatomical mapping</strong> of language functions (<em>speaking</em>, <em>understanding</em>, <em>reading</em>, <em>writing</em>) came from clinical studies on patients with <strong>brain lesions</strong> and language impairments.</p>
+<p><br></p>
+</section>
+<section id="main-causes-of-aphasia" class="slide level2">
+<h2>Main causes of aphasia</h2>
+<div class="columns">
+<div class="column">
+<p><strong>Acquired brain damage</strong> after stroke damage (most common), head injury, progressive neurological disorders (e.g., Alzheimer), brain tumor, encephalitis.</p>
+<p><br></p>
+<p>Damage is more frequently located on <strong>left side of the brain</strong>.</p>
+<p><br></p>
+<p>Can affect one or more communication modalities:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th><em>Comprehension</em></th>
+<th><em>Production</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Spoken</em></td>
+<td>Speech comprehension</td>
+<td>Speech production</td>
+</tr>
+<tr class="even">
+<td><em>Written</em></td>
+<td>Reading</td>
+<td>Writing</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/halai2021.jpeg"></p>
+<figcaption>Lesion overlap map for 69 patients with left hemisphere post stroke aphasia<br><span class="citation" data-cites="halai2020investigating">(<a href="#/references" role="doc-biblioref" onclick="">Halai et al. 2020</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="classification-of-aphasias" class="slide level2">
+<h2>Classification of aphasias</h2>
+<p>Damage localization is associated with different resulting patterns of language impairment.</p>
+
+<img data-src="./assets/img/aphasias.png" class="r-stretch quarto-figure-center"><p class="caption">Classification of aphasias based on fluency, comprehension, and repetition ability.</p></section>
+<section id="brocas-aphasia" class="slide level2">
+<h2>Broca’s aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<p>Paul Broca (1861)</p>
+<ul>
+<li>Inability to properly <strong>produce</strong> any words other than “tan”.</li>
+<li>Speech comprehension intact</li>
+<li>Post-mortem examination of the patient’s brain: damage to the 3rd convolution of the left frontal lobe</li>
+</ul>
+<p>This area is now known as Broca’s Area. Corresponds to Broadmann’s area BA 44/45</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/broca.jpg"></p>
+<figcaption>Copyright © Society for Neuroscience (2017).</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="brocas-aphasia-1" class="slide level2">
+<h2>Broca’s aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<p>More generally, patients with Broca’s aphasia show key difficulties in <strong>speech production</strong>, with <strong>speech comprehension</strong> intact.</p>
+<p>What can we learn from the function of Broca’s area?</p>
+</div><div class="column">
+<p>Broca’s area involved in:</p>
+<ul>
+<li><strong>Motor programing</strong> of <strong>articulatory movements</strong> (together with supplementary motor area, basal ganglia and cerebellum)</li>
+<li><strong>Grammatical processing</strong> (activates when judging the grammaticality of a sentence)</li>
+</ul>
+</div></div>
+</section>
+<section id="brocas-aphasia-2" class="slide level2">
+<h2>Broca’s aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<blockquote>
+<p>Yes… ah… Monday… er… Dad and Peter H… (his own name), and Dad…. er… hospital… and ah… Wednesday… Wednesday, nine o’clock… and oh… Thursday… ten o’clock, ah doctors… two… an’ doctors… and er… teeth…yah.</p>
+</blockquote>
+</div><div class="column">
+<iframe data-external="1" src="https://www.youtube.com/embed/JWC-cVQmEmY" width="500" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
+<p><a href="https://www.youtube.com/watch?v=JWC-cVQmEmY" class="uri">https://www.youtube.com/watch?v=JWC-cVQmEmY</a></p>
+</section>
+<section id="wernickes-aphasia" class="slide level2">
+<h2>Wernicke’s aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<p>Carl Wenicke (1874):</p>
+<ul>
+<li><strong>Difficulties in speech comprehension</strong></li>
+<li>Fluent speech, typical speech rate, intact grammatical abilities</li>
+<li><strong>Produced speech does not have meaning</strong> (<em>word salad</em>)</li>
+<li>Post-mortem examination of the patient’s brain: left temporal lobe</li>
+</ul>
+<p>This area is now known as Wernickes’s area. Corresponds to Broadmann’s area BA 22/24.</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/wernicke.jpg" width="400"></p>
+<figcaption>Copyright © Society for Neuroscience (2017).</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="wernickes-aphasia-1" class="slide level2">
+<h2>Wernicke’s aphasia</h2>
+<p><br><br></p>
+<div class="columns">
+<div class="column">
+<p>Wernickes’s area involved in:</p>
+<ul>
+<li>Speech comprehension</li>
+<li>Close to auditory cortex</li>
+<li>Involved in access to word meaning</li>
+</ul>
+</div><div class="column">
+<iframe data-external="1" src="https://www.youtube.com/embed/3oef68YabD0" width="500" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
+<p><a href="https://www.youtube.com/watch?v=3oef68YabD0" class="uri">https://www.youtube.com/watch?v=3oef68YabD0</a></p>
+</section>
+<section id="conduction-aphasia" class="slide level2">
+<h2>Conduction aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><span class="citation" data-cites="brookshire2014introduction">Brookshire and McNeil (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span>:</p>
+<ul>
+<li><strong>Deficit in spoken word repetition</strong>: patients fail to encode phonological information (inverted positions of syllables)</li>
+<li><strong>Speech comprehension</strong> relatively preseved</li>
+<li>Patients are aware of the errors (unlike other forms of aphasia) but still have difficulty in correcting their speech</li>
+<li>Lesion in the arcuate fasciculus, often after stroke</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/arcuate.jpg"></p>
+<figcaption>Wikimedia Commons</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="conduction-aphasia-1" class="slide level2">
+<h2>Conduction aphasia</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<blockquote>
+<p><em>Clinician</em>: Now, I want you to say some words after me. Say ‘boy’.</p>
+</blockquote>
+<blockquote>
+<p><em>Patient</em>: Boy.</p>
+</blockquote>
+<blockquote>
+<p><em>Clinician</em>: Let’s try another one. Say ‘refrigerator’.</p>
+</blockquote>
+<blockquote>
+<p><em>Patient</em>: Frigilator … no? how about … frerigilator … no frigaliterlater… aahh! It’s all mixed up!”</p>
+</blockquote>
+</div><div class="column">
+<iframe data-external="1" src="https://www.youtube.com/embed/1yC-uX5VOiE" width="600" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
+<p><a href="https://www.youtube.com/watch?v=1yC-uX5VOiE" class="uri">https://www.youtube.com/watch?v=1yC-uX5VOiE</a></p>
+</section>
+<section id="anomic-aphasia-and-primary-progressive-aphasia-ppa" class="slide level2">
+<h2>Anomic aphasia and Primary Progressive Aphasia (PPA)</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<p><span class="citation" data-cites="brookshire2014introduction">Brookshire and McNeil (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span>:</p>
+<ul>
+<li><strong>Difficulty in word selection</strong> of (nouns and verbs): failed word retrieval</li>
+<li>Fluent speech</li>
+<li>Comprehension preserved</li>
+<li>Can be very specific: color anomia (deficit in retrieving words for color)</li>
+<li>Neuroanatomical correlates unclear: <strong>Peri-sylvian area</strong>, generally result of progressive diseases</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/ota2024.jpg"></p>
+<figcaption>Magnetic resonance imaging 10-year clinical course of PPA patient with pure anomic aphasia showing progressive atrophy of the left temporal lobe, eventually spread bilaterally.</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="global-aphasia" class="slide level2">
+<h2>Global aphasia</h2>
+<p><br></p>
+<ul>
+<li><p>Serious <strong>deficit of speech production and comprehension</strong></p></li>
+<li><p>Patients are almost mute or produced stereotyped sentences (formed by very few disconnected words)</p></li>
+<li><p>Repetitions, reading, writing all compromised patients are able to express themselves using intonation, facial expression, gestures</p></li>
+<li><p>Lesion at left inferior frontal areas, superior temporal areas, most of the parietal lobe</p></li>
+<li><p>Typically caused by occlusion (thrombotic stroke) at the left middle cerebral artery <span class="citation" data-cites="alexander1992lesion">(<a href="#/references" role="doc-biblioref" onclick="">Alexander et al. 1992</a>)</span></p></li>
+</ul>
+</section></section>
+<section>
+<section id="lateralization-of-language-functions" class="title-slide slide level1 center">
+<h1>Lateralization of language functions</h1>
+<p><br> <br></p>
+</section>
+<section id="what-does-lateralized-mean" class="slide level2">
+<h2>What does <em>lateralized</em> mean?</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Many human cognitive functions are <strong>lateralized</strong>: brain shows functional asymmetries (one hemisphere is specialized in processing a given type of information)</li>
+<li>Some cognitive functions are more lateralized than others, the origin of this lateralization is unclear</li>
+<li>Cerebral hemispheres are interconnected by the <strong>corpus callosum</strong>: largest fiber system in the brain.</li>
+</ul>
+</div><div class="column">
+<p><img data-src="./assets/img/lateralization.png"></p>
+</div></div>
+</section>
+<section id="corpus-callosum" class="slide level2">
+<h2>Corpus callosum</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Connect correspondent brain areas in the two hemispheres (homotopic connection), but also non-correspondent areas (heterotopic connections)</li>
+<li>Main function: <strong>inhibitory role</strong>; it prevents competition between brain hemispheres in information processing.</li>
+</ul>
+</div><div class="column">
+<p><img data-src="./assets/img/lateralization.png"></p>
+</div></div>
+</section>
+<section id="corpus-callosum-1" class="slide level2">
+<h2>Corpus callosum</h2>
+<p><br></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Corpus callosum <strong>matures slowly</strong> over the first 5 to 10 years of human life</li>
+<li>Resection of corpus callosum or hemispherectomy in case of severe epilepsy in children under this age does not compromise the brain</li>
+<li>Brain rewires itself!</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/half.png"></p>
+<figcaption><span class="citation" data-cites="borgstein2002half">Borgstein and Grootendorst (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="wada-milner-or-wadas-test" class="slide level2">
+<h2>Wada-Milner or Wada’s test</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Injection of anesthetic agent into the internal carotid artery to <strong>anesthetize one hemisphere at a time</strong></li>
+<li>Used to <strong>determine cerebral dominance</strong> for language functions invasive and risky</li>
+<li>Use for research now replaced with safer techniques</li>
+<li>Still used with some patients in need of brain surgery: a patient’s <a href="https://medium.com/@shelbsthomcat/living-with-epilepsy-part-two-into-the-great-wide-open-35cb2f6e08b7">first person perspective</a> of Wada’s test!</li>
+</ul>
+</div><div class="column">
+<p><img data-src="./assets/img/wada.png"></p>
+</div></div>
+</section>
+<section id="wada-milner-or-wadas-test-1" class="slide level2">
+<h2>Wada-Milner or Wada’s test</h2>
+<p><span class="citation" data-cites="milner1962study">Milner (<a href="#/references" role="doc-biblioref" onclick="">1962</a>)</span></p>
+
+<img data-src="./assets/img/wada.jpg" width="800" class="r-stretch quarto-figure-center"><p class="caption">Dr.&nbsp;Wada doing his thing. University of British Columbia Archives (UBC41.1/2160).</p></section>
+<section id="wada-milner-or-wadas-test-2" class="slide level2">
+<h2>Wada-Milner or Wada’s test</h2>
+<p><br></p>
+<iframe data-external="1" src="https://www.youtube.com/embed/kqaOLtNIz78?start=656" width="800" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=kqaOLtNIz78" class="uri">https://www.youtube.com/watch?v=kqaOLtNIz78</a></p>
+</section>
+<section id="lateralization-of-language-functions-1" class="slide level2">
+<h2>Lateralization of language functions</h2>
+<p><br></p>
+<p>For many years the preferred hand was believed to be contralateral to the cerebral hemisphere dominant for language:</p>
+<ul>
+<li>Right-handers → left-hemisphere dominance</li>
+<li>Left-handers → right-hemisphere dominance</li>
+</ul>
+</section>
+<section id="lateralization-of-language-functions-2" class="slide level2">
+<h2>Lateralization of language functions</h2>
+<p><br></p>
+<p>For many years the preferred hand was believed to be contralateral to the cerebral hemisphere dominant for language:</p>
+<ul>
+<li>Right-handers → left-hemisphere dominance</li>
+<li>Left-handers → right-hemisphere dominance</li>
+</ul>
+<p><strong>Now</strong>: brain lateralization is only <strong><em>partially</em></strong> associated with handedness.</p>
+<ul>
+<li>Right-handers → 95% have left-hemisphere dominance for language</li>
+<li>Left-handers → 50-70% also show left-hemisphere dominance</li>
+</ul>
+<p>Hand preference is relevant but not totally reliable as predictor of language dominance in the brain.</p>
+</section></section>
+<section>
+<section id="brain-localization-of-language-functions" class="title-slide slide level1 center">
+<h1>Brain localization of language functions</h1>
+<p>Can we map <strong>language functions</strong> to specific <strong>brain areas</strong>?</p>
+</section>
+<section id="awake-brain-surgery" class="slide level2">
+<h2>Awake brain surgery</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/5K66gj5e4Mk?start=656" width="800" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=5K66gj5e4Mk" class="uri">https://www.youtube.com/watch?v=5K66gj5e4Mk</a></p>
+</section>
+<section id="neuroimaging" class="slide level2">
+<h2>Neuroimaging</h2>
+<p><br><br></p>
+<ul>
+<li>Electroencephalography (EEG)</li>
+<li>Magnetoencelography (MEG)</li>
+<li>Functional Magnetic Resonance Imaging (fMRI)</li>
+<li>Functional Near-Infrared Spectroscopy (fNIRS)</li>
+</ul>
+<p><br></p>
+<p>We can study healthy participants <strong>non-invasively</strong>!</p>
+</section>
+<section id="neuroimaging-1" class="slide level2 scrollable">
+<h2>Neuroimaging</h2>
+<p><br></p>
+<ol type="1">
+<li>Participants perform language processing tasks during <strong>brain imaging</strong> or awake surgery (pr volunteers getting brain surgery for a language-unrelated issue).</li>
+<li>Experimental design is used to map brain activity in some areas to the stimuli presented or to paricipant’s performance</li>
+</ol>
+<p><br></p>
+
+<img data-src="./assets/img/lexical.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.psytoolkit.org/experiment-library/experiment_ldt.html" class="uri">https://www.psytoolkit.org/experiment-library/experiment_ldt.html</a></p></section>
+<section id="speech-errors" class="slide level2">
+<h2>Speech errors</h2>
+<p><br></p>
+<p>Speech errors or slips of the tongue or <em>lapsus linguae</em>: Speech errors provide reveal the sequential order of language production.</p>
+<ul>
+<li>Example: <em>reading list</em> → <em>leading rist</em> (phoneme anticipation)</li>
+<li>Insight: The speaker has selected all words in the phase before production!</li>
+</ul>
+</section>
+<section id="tip-of-the-tongue-phenomenon" class="slide level2">
+<h2><em>Tip-of-the-tongue</em> phenomenon</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/abdating.jpeg" width="200"></p>
+<figcaption>To give up the throne (verb).</figcaption>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/compass.png" width="200"></p>
+<figcaption>Device for cardinal orientation.</figcaption>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/capitals.png" width="200"></p>
+<figcaption>Can you name the capitals?</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+<p><br></p>
+
+<img data-src="./assets/img/comprehension-production.png" class="r-stretch quarto-figure-center"><p class="caption">Speech comprehension and production loop (simplified).</p></section>
+<section id="the-auditory-pathway" class="slide level2 scrollable">
+<h2>The auditory pathway</h2>
+<div class="columns">
+<div class="column">
+<p><br></p>
+<p>The <strong>auditory pathway</strong> transforms sound (air vibrations) into electric potentials, and transmits sensory information from the ear to the brain, where sophisticated speech processing is performed.</p>
+<p><br></p>
+<ol type="1">
+<li>Auditory nerve</li>
+<li>Primary auditory cortex</li>
+<li>Associative areas</li>
+</ol>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/auditory-nerve.png" width="410"></p>
+<figcaption>Jonathan E. Peelle. License: CC BY 4.0)</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="the-auditory-pathway-1" class="slide level2">
+<h2>The auditory pathway</h2>
+<p><br></p>
+<h3 id="auditory-nerve-cochlear-nerve">1) Auditory nerve (cochlear nerve)</h3>
+<div class="columns">
+<div class="column">
+<p><strong>Tonotopic arrangement of sensors</strong>: from higher pitch to lower pitch, neurons located at the base and the apex of the cochlea, respectively.</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/cochlea.gif"></p>
+<figcaption>Soundsory©</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="the-auditory-pathway-2" class="slide level2">
+<h2>The auditory pathway</h2>
+<p><br></p>
+<h3 id="primary-auditory-cortex">2) Primary auditory cortex</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Responds equally to speech and other sounds in both left and right hemisphere.</li>
+<li>Anterior regions of <strong>left auditory cortex</strong> responds more to speech than non-speech sounds with same acoustic complexity <span class="citation" data-cites="scott2000identification">(<a href="#/references" role="doc-biblioref" onclick="">Scott et al. 2000</a>)</span></li>
+<li>Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.</li>
+</ul>
+<p>Left hemisphere damages can result in a type of auditory agnosia: environmental sounds and music are identified, but not speech</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/primary.jpg"></p>
+<figcaption><span class="citation" data-cites="upadhyay2008effective">Upadhyay et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="the-auditory-pathway-3" class="slide level2">
+<h2>The auditory pathway</h2>
+<p><br></p>
+<h3 id="primary-auditory-cortex-1">2) Primary auditory cortex</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Responds equally to speech and other sounds in both left and right hemisphere.</li>
+<li>Anterior regions of <strong>left auditory cortex</strong> responds more to speech than non-speech sounds with same acoustic complexity <span class="citation" data-cites="scott2000identification">(<a href="#/references" role="doc-biblioref" onclick="">Scott et al. 2000</a>)</span></li>
+<li>Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.</li>
+</ul>
+<p>Left hemisphere damages can result in a type of auditory agnosia: environmental sounds and music are identified, but not speech</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/primary.gif"></p>
+<figcaption><span class="citation" data-cites="ander2015atypical">Ander et al. (<a href="#/references" role="doc-biblioref" onclick="">2015</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="the-auditory-pathway-4" class="slide level2">
+<h2>The auditory pathway</h2>
+<h3 id="the-brain-language-network">3) The brain language network</h3>
+<p>Some brain areas (mostly located in <strong>left lateral frontal and temporal areas</strong>) are involved <em>consistently</em> and <em>selectively</em> in language tasks, as revealed by fMRI studies <span class="citation" data-cites="fedorenko2024language">(<a href="#/references" role="doc-biblioref" onclick="">Fedorenko et al. 2024</a>)</span>.</p>
+<p>These areas are strongly interconnected.</p>
+
+<img data-src="./assets/img/fedorenko.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="fedorenko2024language">Fedorenko et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p></section>
+<section id="the-auditory-pathway-5" class="slide level2">
+<h2>The auditory pathway</h2>
+<h3 id="the-brain-language-network-1">3) The brain language network</h3>
+<p>Some brain areas (mostly located in <strong>left lateral frontal and temporal areas</strong>) are involved <em>consistently</em> and <em>selectively</em> in language tasks, as revealed by fMRI studies <span class="citation" data-cites="fedorenko2024language">(<a href="#/references" role="doc-biblioref" onclick="">Fedorenko et al. 2024</a>)</span>.</p>
+
+<img data-src="./assets/img/fedorenko-2.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="fedorenko2024language">Fedorenko et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p></section></section>
+<section>
+<section id="language-research-methods-in-infancy" class="title-slide slide level1 center">
+<h1>Language research methods in infancy</h1>
+
+</section>
+<section id="language-acquisition" class="slide level2">
+<h2>Language acquisition</h2>
+<p><br></p>
+
+<img data-src="./assets/img/periods.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="birdsong2018plasticity">Birdsong (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></p></section>
+<section id="research-methods-in-infancy" class="slide level2">
+<h2>Research methods in infancy</h2>
+<p><br> <br></p>
+<ul>
+<li>Tasks that do not require verbal instructions or key-pressing responses</li>
+<li>Short attention span</li>
+<li>Get tired quickly</li>
+<li>Experiments have to be fast (~5 minutes max)</li>
+</ul>
+<p>Research with infants is challenging!</p>
+</section>
+<section id="research-methods-in-infancy-1" class="slide level2">
+<h2>Research methods in infancy</h2>
+<p><br> <br></p>
+<ul>
+<li><strong>Behavioral</strong> (based on infants’ natural tendency to look at conspicuous/novel visual stimuli)</li>
+<li><strong>Physiological</strong> (cardiac rhythm)</li>
+<li><strong>Brain imaging</strong> (EEG, fMRI, MEG, fNIRS)</li>
+</ul>
+</section>
+<section id="behavioural-methods" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p>Change in behavioral response = Ability to discriminate between two events</p>
+</section>
+<section id="behavioural-methods-1" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p><strong>Headturn Preference Procedure (HPP)</strong> <span class="citation" data-cites="nelson1995head">(<a href="#/references" role="doc-biblioref" onclick="">Nelson et al. 1995</a>)</span></p>
+<ul>
+<li>Familiarization with acoustic stimuli (e.g., sequence of sounds)</li>
+<li>Then, 2 types of audio stimuli</li>
+<li>Presented while a flashing light alternates on the lateral screens</li>
+<li>Infant would make head turns towards the light, and listen to the sounds as long as she wants</li>
+<li>Sound stops when baby stops looking</li>
+</ul>
+</section>
+<section id="behavioural-methods-2" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p><strong>Preferential Looking paradigm</strong> <span class="citation" data-cites="golinkoff1987eyes">(<a href="#/references" role="doc-biblioref" onclick="">Golinkoff et al. 1987</a>)</span></p>
+<ul>
+<li>Two images on a screen</li>
+<li>Recording looking time at each image</li>
+<li>Determines if infants can discriminate one stimulus from another by measuring how much time they look at them</li>
+<li>Images can be paired with sounds to measure acoustic preferences through visual preferences</li>
+</ul>
+</section>
+<section id="behavioural-methods-3" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p><strong>Preferential looking (eye-tracking)</strong></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Automated recording of infant’s eye-movements (eye-position, fixations, saccades..)</li>
+<li>Based on infrared light (non-invasive) that create aa corneal reflection to locate eye position</li>
+<li>Pupillometry</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/bergelson.png"></p>
+<figcaption><span class="citation" data-cites="bergelson20126">Bergelson and Swingley (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="behavioural-methods-4" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p><strong>Habituation / Dishabituation</strong></p>
+<ul>
+<li>Showing the same stimulus repeatedly until infant shows a clear decrease in looking time</li>
+<li>When a novel stimulus is presented, an increase in looking time should occur</li>
+</ul>
+</section>
+<section id="behavioural-methods-5" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<p><strong>High-Amplitude Sucking Procedure</strong> <span class="citation" data-cites="siqueland1969visual">(<a href="#/references" role="doc-biblioref" onclick="">Siqueland and DeLucia 1969</a>)</span></p>
+<p>Newborns is given a special pacifier that measures sucking rate</p>
+<ul>
+<li>Newborn’s <strong>sucking frequency</strong> controls the presentation of sounds until bored (habituation)</li>
+<li>Presentation of new sound: if newborn recognizes the change, she will increases the sucking rate</li>
+</ul>
+</section>
+<section id="behavioural-methods-6" class="slide level2">
+<h2>Behavioural methods</h2>
+<p><br> <br></p>
+<iframe data-external="1" src="https://www.youtube.com/embed/rJQh8IpizwU" width="800" height="500" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=rJQh8IpizwU" class="uri">https://www.youtube.com/watch?v=rJQh8IpizwU</a></p>
+</section>
+<section id="neuroimaging-methods" class="slide level2">
+<h2>Neuroimaging methods</h2>
+<p><br> <br></p>
+<p>A change in <strong>neurophysiological response contingent to different types of stimulation</strong> may reveal differences in underlying procecesing between stimulus types.</p>
+</section>
+<section id="neuroimaging-methods-1" class="slide level2">
+<h2>Neuroimaging methods</h2>
+<p><br> <br></p>
+<p><strong>Magnetoencephalography</strong> (MEG)</p>
+<ul>
+<li>Records magnetic fields caused by electrical activity naturally produced in the brain</li>
+<li>Good at spatially localize brain activation</li>
+<li><em>Pros</em>: baby is free to move; good spatial resolution</li>
+<li><em>Cons</em>: huge, very expensive</li>
+</ul>
+</section>
+<section id="neuroimaging-methods-2" class="slide level2">
+<h2>Neuroimaging methods</h2>
+<p><br> <br></p>
+<p><strong>Functional Magnetic Resonance</strong> (fMRI)</p>
+<ul>
+<li>Measures brain activity by detecting <strong>hemodynamic response</strong> in the brain (changes in blood flow)</li>
+<li><em>Cons</em>: lot of noise, babies should move as less as possible as movements can cause artifacts (distortions of images)</li>
+</ul>
+</section>
+<section id="neuroimaging-methods-3" class="slide level2">
+<h2>Neuroimaging methods</h2>
+<p><br> <br></p>
+<p><strong>Electroencephalography</strong> (EEG)</p>
+<p>Records electrical activity naturally produced by the brain</p>
+<ul>
+<li>Measures <strong>voltage fluctuations</strong> resulting from ionic current within neurons (ERPs) in response to stimuli (images, sounds etc)</li>
+<li><em>Pros</em>: cheaper; more baby-friendly than other techniques; good to measure timecourse of activation</li>
+<li><em>Cons</em>: also sensitive to motion</li>
+</ul>
+</section>
+<section id="neuroimaging-methods-4" class="slide level2">
+<h2>Neuroimaging methods</h2>
+<p><br> <br></p>
+<p><strong>Functional Near-Infrared Spectroscopy</strong> (fNIRS)</p>
+<p>Measures <strong>hemodynamic responses</strong> in the brain during stimuli presentation (images, sounds, etc.).</p>
+<ul>
+<li>Infrared light goes into the scalp and comes back</li>
+<li>Provides info about brain activation as amount of oxygen delivered by cerebral blood flow in a brain area</li>
+<li><em>Pros</em>: less invasive, less sensors</li>
+<li><em>Cons</em>: similar to fMRI</li>
+</ul>
+</section></section>
+<section>
+<section id="language-acquisition-1" class="title-slide slide level1 center">
+<h1>Language acquisition</h1>
+
+</section>
+<section id="language-acquisition-2" class="slide level2">
+<h2>Language acquisition</h2>
+<p><br></p>
+
+<img data-src="./assets/img/periods.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="birdsong2018plasticity">Birdsong (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></p></section>
+<section id="preference-for-speech" class="slide level2">
+<h2>Preference for speech</h2>
+<p><br> <br></p>
+<p>At birth:</p>
+<ul>
+<li>Humans show a <strong>preference for native spoken language</strong> vs.&nbsp;acoustically similar, non-language stimuli (e.g., complex sequence of non-linguistic sounds) since birth</li>
+<li>Preference for the <strong>vocalizations emitted by conspecifics</strong> is a common phenomenon in the animal kingdom</li>
+<li>For the young of different species, including infants, their own- species sounds (e.g., speech) have a “survival” importance</li>
+</ul>
+</section>
+<section id="preference-for-speech-1" class="slide level2">
+<h2>Preference for speech</h2>
+<p><br> <br></p>
+<p>At birth:</p>
+<ul>
+<li>Newborns prefer their <strong>mother’s voice</strong> to other female voices <span class="citation" data-cites="decasper_fetal_1994">(<a href="#/references" role="doc-biblioref" onclick="">DeCasper et al. 1994</a>)</span></li>
+<li>Newborns <strong>stories heard prenatally</strong> from other stories <span class="citation" data-cites="decasper_prenatal_1986">(<a href="#/references" role="doc-biblioref" onclick="">DeCasper and Spence 1986</a>)</span></li>
+<li><strong>Native speech</strong> vs.&nbsp;non-native speech <span class="citation" data-cites="shultz2010three">(<a href="#/references" role="doc-biblioref" onclick="">Shultz and Vouloumanos 2010</a>)</span></li>
+</ul>
+</section>
+<section id="preference-for-speech-2" class="slide level2">
+<h2>Preference for speech</h2>
+<p><br> <br></p>
+<p>Three month-olds <span class="citation" data-cites="shultz2010three">(<a href="#/references" role="doc-biblioref" onclick="">Shultz and Vouloumanos 2010</a>)</span>:</p>
+<p><strong>Prefer non-native speech</strong> (e.g., Russian and Japanese presented to English-learning infants) vs.&nbsp;natural sounds sharing properties with spoken languages:</p>
+<p><br> <br></p>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Speech</th>
+<th style="text-align: center;">Rhesus macaque calls</th>
+<th style="text-align: center;">Environmental</th>
+<th style="text-align: center;">Human noncomm. vocalizations</th>
+<th style="text-align: center;">Human comm. vocalizations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Linguistic</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Human</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr class="odd">
+<td>Communicative</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr class="even">
+<td>Biological</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="preference-for-speech-3" class="slide level2">
+<h2>Preference for speech</h2>
+<p><br> <br></p>
+<p>Three month-olds <span class="citation" data-cites="shultz2010three">(<a href="#/references" role="doc-biblioref" onclick="">Shultz and Vouloumanos 2010</a>)</span>:</p>
+<p><strong>Prefer non-native speech</strong> (e.g., Russian and Japanese presented to English-learning infants) vs.&nbsp;natural sounds sharing properties with spoken languages:</p>
+<p><br> <br></p>
+
+<img data-src="./assets/img/shultz.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="shultz2010three">Shultz and Vouloumanos (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></p></section>
+<section class="slide level2">
+
+<p><br> <br> <br> <br> <br> <br> <br></p>
+<div class="center">
+<p>Which one sounds better?</p>
+</div>
+<p><br></p>
+<div class="center">
+<p><strong><em>blif</em> or <em>lbif</em></strong></p>
+</div>
+</section>
+<section id="phonotactics-at-birth" class="slide level2">
+<h2>Phonotactics at birth?</h2>
+<p><br> <br></p>
+<p>2-to-5-day-old neonates <span class="citation" data-cites="gomez2014language">(<a href="#/references" role="doc-biblioref" onclick="">Gómez et al. 2014</a>)</span>:</p>
+<ul>
+<li><strong>Linguistic universal</strong>: <em>blif</em> (well-formed syllable) vs.&nbsp;<em>lbif</em> (ill-formed syllable)</li>
+<li>Left temporal and right fronto-parietal areas show larger haemodynamic responses when well-formed syllables are presented</li>
+<li>fNIRS measures differences in blood oxygen level in these areas in response to well-formed (possible) syllables vs.&nbsp;ill-formed (impossible) syllables</li>
+</ul>
+
+<img data-src="./assets/img/gomez.jpeg" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="gomez2014language">Gómez et al. (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p></section>
+<section id="language-hemispheric-dominance-in-infants" class="slide level2">
+<h2>Language hemispheric dominance in infants</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column">
+<p>Some evidence of language lateralization at birth <span class="citation" data-cites="pena2003sounds">(<a href="#/references" role="doc-biblioref" onclick="">Peña et al. 2003</a>)</span>:</p>
+<ul>
+<li><strong>Left temporal region responds differently</strong> to forward speech vs.&nbsp;backward speech vs.&nbsp;silence</li>
+<li>Right temporal region does not</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/pena.png"></p>
+<figcaption><span class="citation" data-cites="pena2003sounds">Peña et al. (<a href="#/references" role="doc-biblioref" onclick="">2003</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="language-hemispheric-dominance-in-infants-1" class="slide level2">
+<h2>Language hemispheric dominance in infants</h2>
+<div class="columns">
+<div class="column">
+<p><br> <br></p>
+<p><span class="citation" data-cites="dehaene2002functional">Dehaene-Lambertz et al. (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span>: fMRI study with 2- to 3-month-old infants</p>
+<p><br></p>
+<p>Evidence of activation of <strong>left (not right) temporal and parietal areas</strong> in response to speech.</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/img/dehaene.png" width="400"></p>
+<figcaption><span class="citation" data-cites="dehaene2002functional">Dehaene-Lambertz et al. (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="prenatal-experience-with-speech" class="slide level2">
+<h2>Prenatal experience with speech</h2>
+<p><br> <br></p>
+<p>Fetuses do not experience speech as we do: <strong>only low-frequency components of speech can be heard</strong> (e.g., pitch, rhythm, some phonetic information) <span class="citation" data-cites="moon2017prenatal eggermont2011morphological gerhardt2000fetal">(<a href="#/references" role="doc-biblioref" onclick="">Moon 2017</a>; <a href="#/references" role="doc-biblioref" onclick="">Eggermont and Moore 2011</a>; <a href="#/references" role="doc-biblioref" onclick="">Gerhardt and Abrams 2000</a>)</span>.</p>
+<p>Fetuses have access to the mother’s voice mainly through <strong>bone conduction</strong>:</p>
+<ul>
+<li>Mother’s voice is carried along the vertebral column into her pelvis to the bones of fetus’ head, then directly to fetus’ inner ear</li>
+<li>At ~36th weeks of gestation, fetal heart rate (FHR) decelerates and motor activity decreases when hearing sound of mother’s voice</li>
+</ul>
+</section>
+<section id="prenatal-experience-with-speech-1" class="slide level2">
+<h2>Prenatal experience with speech</h2>
+<p><br> <br></p>
+<p>Research on fetal sound discrimination confirms the <strong>ability of fetuses to detect and respond to maternal voice</strong> <span class="citation" data-cites="may2011language">(<a href="#/references" role="doc-biblioref" onclick="">May et al. 2011</a>)</span>:</p>
+<p>Mother’s voice seems to be a <strong>salient auditory stimulus even before birth</strong>, and has calming effect in fetuses</p>
+<ul>
+<li>Effects on post-natal auditory preferences and behavior</li>
+<li>Pre-natal experience can be one explanation of post-natal preferences for mother’s voice, and for speech</li>
+</ul>
+</section></section>
+<section id="thank-you" class="title-slide slide level1 center">
+<h1>Thank you</h1>
+
+</section>
+
+<section>
+<section id="bibliography" class="title-slide slide level1 center">
+<h1>Bibliography</h1>
+
+</section>
+<section class="slide level2 smaller scrollable" id="references">
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alexander1992lesion" class="csl-entry" role="listitem">
+Alexander, MP, RB Friedman, F Loverso, and RS Fischer. 1992. <span>“Lesion Localization of Phonological Agraphia.”</span> <em>Brain and Language</em> 43 (1): 83–95.
+</div>
+<div id="ref-ander2015atypical" class="csl-entry" role="listitem">
+Ander, Bradley P, Nicole Barger, Boryana Stamova, Frank R Sharp, and Cynthia M Schumann. 2015. <span>“Atypical miRNA Expression in Temporal Cortex Associated with Dysregulation of Immune, Cell Cycle, and Other Pathways in Autism Spectrum Disorders.”</span> <em>Molecular Autism</em> 6 (1): 37.
+</div>
+<div id="ref-arciuli2018promise" class="csl-entry" role="listitem">
+Arciuli, Joanne, and Christopher M Conway. 2018. <span>“The Promise—and Challenge—of Statistical Learning for Elucidating Atypical Language Development.”</span> <em>Current Directions in Psychological Science</em> 27 (6): 492–500.
+</div>
+<div id="ref-bergelson20126" class="csl-entry" role="listitem">
+Bergelson, Elika, and Daniel Swingley. 2012. <span>“At 6–9 Months, Human Infants Know the Meanings of Many Common Nouns.”</span> <em>Proceedings of the National Academy of Sciences</em> 109 (9): 3253–58.
+</div>
+<div id="ref-birdsong2018plasticity" class="csl-entry" role="listitem">
+Birdsong, David. 2018. <span>“Plasticity, Variability and Age in Second Language Acquisition and Bilingualism.”</span> <em>Frontiers in Psychology</em> 9: 81.
+</div>
+<div id="ref-borgstein2002half" class="csl-entry" role="listitem">
+Borgstein, Johannes, and Caroline Grootendorst. 2002. <span>“Half a Brain.”</span> <em>The Lancet</em> 359 (9305): 473.
+</div>
+<div id="ref-brookshire2014introduction" class="csl-entry" role="listitem">
+Brookshire, Robert H, and Malcolm R McNeil. 2014. <em>Introduction to Neurogenic Communication Disorders</em>. Elsevier Health Sciences.
+</div>
+<div id="ref-brysbaert_how_2016" class="csl-entry" role="listitem">
+Brysbaert, Marc, Michaël Stevens, Paweł Mandera, and Emmanuel Keuleers. 2016. <span>“How <span>Many</span> <span>Words</span> <span>Do</span> <span>We</span> <span>Know</span>? <span>Practical</span> <span>Estimates</span> of <span>Vocabulary</span> <span>Size</span> <span>Dependent</span> on <span>Word</span> <span>Definition</span>, the <span>Degree</span> of <span>Language</span> <span>Input</span> and the <span>Participant</span>’s <span>Age</span>.”</span> <em>Frontiers in Psychology</em> 7 (July). <a href="https://doi.org/10.3389/fpsyg.2016.01116">https://doi.org/10.3389/fpsyg.2016.01116</a>.
+</div>
+<div id="ref-decasper_fetal_1994" class="csl-entry" role="listitem">
+DeCasper, Anthony J., Jean-Pierre Lecanuet, Marie-Claire Busnel, Carolyn Granier-Deferre, and Roselyne Maugeais. 1994. <span>“Fetal Reactions to Recurrent Maternal Speech.”</span> <em>Infant Behavior and Development</em> 17 (2): 159–64. <a href="https://doi.org/10.1016/0163-6383(94)90051-5">https://doi.org/10.1016/0163-6383(94)90051-5</a>.
+</div>
+<div id="ref-decasper_prenatal_1986" class="csl-entry" role="listitem">
+DeCasper, Anthony J., and Melanie J. Spence. 1986. <span>“Prenatal Maternal Speech Influences Newborns’ Perception of Speech Sounds.”</span> <em>Infant Behavior and Development</em> 9 (2): 133–50. <a href="https://doi.org/10.1016/0163-6383(86)90025-1">https://doi.org/10.1016/0163-6383(86)90025-1</a>.
+</div>
+<div id="ref-dehaene2002functional" class="csl-entry" role="listitem">
+Dehaene-Lambertz, Ghislaine, Stanislas Dehaene, and Lucie Hertz-Pannier. 2002. <span>“Functional Neuroimaging of Speech Perception in Infants.”</span> <em>Science</em> 298 (5600): 2013–15.
+</div>
+<div id="ref-eggermont2011morphological" class="csl-entry" role="listitem">
+Eggermont, Jos J, and Jean K Moore. 2011. <span>“Morphological and Functional Development of the Auditory Nervous System.”</span> In <em>Human Auditory Development</em>. Springer.
+</div>
+<div id="ref-fedorenko2024language" class="csl-entry" role="listitem">
+Fedorenko, Evelina, Anna A Ivanova, and Tamar I Regev. 2024. <span>“The Language Network as a Natural Kind Within the Broader Landscape of the Human Brain.”</span> <em>Nature Reviews Neuroscience</em> 25 (5): 289–312.
+</div>
+<div id="ref-gerhardt2000fetal" class="csl-entry" role="listitem">
+Gerhardt, Kenneth J, and Robert M Abrams. 2000. <span>“Fetal Exposures to Sound and Vibroacoustic Stimulation.”</span> <em>Journal of Perinatology</em> 20 (1): S21–30.
+</div>
+<div id="ref-golinkoff1987eyes" class="csl-entry" role="listitem">
+Golinkoff, Roberta Michnick, Kathryn Hirsh-Pasek, Kathleen M Cauley, and Laura Gordon. 1987. <span>“The Eyes Have It: Lexical and Syntactic Comprehension in a New Paradigm.”</span> <em>Journal of Child Language</em> 14 (1): 23–45.
+</div>
+<div id="ref-gomez2014language" class="csl-entry" role="listitem">
+Gómez, David Maximiliano, Iris Berent, Silvia Benavides-Varela, et al. 2014. <span>“Language Universals at Birth.”</span> <em>Proceedings of the National Academy of Sciences</em> 111 (16): 5837–41.
+</div>
+<div id="ref-halai2020investigating" class="csl-entry" role="listitem">
+Halai, Ajay D, Anna M Woollams, and Matthew A Lambon Ralph. 2020. <span>“Investigating the Effect of Changing Parameters When Building Prediction Models for Post-Stroke Aphasia.”</span> <em>Nature Human Behaviour</em> 4 (7): 725–35.
+</div>
+<div id="ref-hammarstrom_glottologglottolog_2025" class="csl-entry" role="listitem">
+Hammarström, Harald, Robert Forkel, Haspelmath Martin, and Sebastian Bank. 2025. <em>Glottolog/Glottolog: <span>Glottolog</span> Database 5.2.1</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.15640155">https://doi.org/10.5281/zenodo.15640155</a>.
+</div>
+<div id="ref-johnson2020mechanisms" class="csl-entry" role="listitem">
+Johnson, Scott P. 2020. <span>“Mechanisms of Statistical Learning in Infancy.”</span> In <em>Language and Concept Acquisition from Infancy Through Childhood: Learning from Multiple Exemplars</em>. Springer.
+</div>
+<div id="ref-may2011language" class="csl-entry" role="listitem">
+May, Lillian, Krista Byers-Heinlein, Judit Gervain, and Janet F Werker. 2011. <span>“Language and the Newborn Brain: Does Prenatal Language Experience Shape the Neonate Neural Response to Speech?”</span> <em>Frontiers in Psychology</em> 2: 222.
+</div>
+<div id="ref-milner1962study" class="csl-entry" role="listitem">
+Milner, B. 1962. <span>“Study of Short-Term Memory and Intracarotid Injection of Sodium Amytal.”</span> <em>Trans Am Neurol Assoc</em> 87: 224–26.
+</div>
+<div id="ref-moon2017prenatal" class="csl-entry" role="listitem">
+Moon, Christine. 2017. <span>“Prenatal Experience with the Maternal Voice.”</span> In <em>Early Vocal Contact and Preterm Infant Brain Development: Bridging the Gaps Between Research and Practice</em>. Springer.
+</div>
+<div id="ref-nelson1995head" class="csl-entry" role="listitem">
+Nelson, Deborah G Kemler, Peter W Jusczyk, Denise R Mandel, James Myers, Alice Turk, and LouAnn Gerken. 1995. <span>“The Head-Turn Preference Procedure for Testing Auditory Perception.”</span> <em>Infant Behavior and Development</em> 18 (1): 111–16.
+</div>
+<div id="ref-pena2003sounds" class="csl-entry" role="listitem">
+Peña, Marcela, Atsushi Maki, Damir Kovac̆ić, et al. 2003. <span>“Sounds and Silence: An Optical Topography Study of Language Recognition at Birth.”</span> <em>Proceedings of the National Academy of Sciences</em> 100 (20): 11702–5.
+</div>
+<div id="ref-scott2000identification" class="csl-entry" role="listitem">
+Scott, Sophie K, C Catrin Blank, Stuart Rosen, and Richard JS Wise. 2000. <span>“Identification of a Pathway for Intelligible Speech in the Left Temporal Lobe.”</span> <em>Brain</em> 123 (12): 2400–2406.
+</div>
+<div id="ref-shultz2010three" class="csl-entry" role="listitem">
+Shultz, Sarah, and Athena Vouloumanos. 2010. <span>“Three-Month-Olds Prefer Speech to Other Naturally Occurring Signals.”</span> <em>Language Learning and Development</em> 6 (4): 241–57.
+</div>
+<div id="ref-siqueland1969visual" class="csl-entry" role="listitem">
+Siqueland, Einar R, and Clement A DeLucia. 1969. <span>“Visual Reinforcement of Nonnutritive Sucking in Human Infants.”</span> <em>Science</em> 165 (3898): 1144–46.
+</div>
+<div id="ref-upadhyay2008effective" class="csl-entry" role="listitem">
+Upadhyay, Jaymin, Andrew Silver, Tracey A Knaus, et al. 2008. <span>“Effective and Structural Connectivity in the Human Auditory Cortex.”</span> <em>The Journal of Neuroscience</em> 28 (13): 3341–49.
+</div>
+<div id="ref-van2024reclaiming" class="csl-entry" role="listitem">
+Van Rooij, Iris, Olivia Guest, Federico Adolfi, Ronald De Haan, Antonina Kolokolova, and Patricia Rich. 2024. <span>“Reclaiming AI as a Theoretical Tool for Cognitive Science.”</span> <em>Computational Brain &amp; Behavior</em> 7 (4): 616–36.
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Fonaments de Psicobiologia, Màster en Neurociències, Universitat de Barcelona</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="index_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script>
+        window.addEventListener('load', function () {
+            const footer = document.querySelector('.footer');
+            if (footer) {
+                // Hide footer on all slides initially
+                footer.style.display = 'none';
+
+                // Show footer only on the first (title) slide
+                Reveal.on('slidechanged', function (event) {
+                    if (Reveal.isFirstSlide()) {
+                        footer.style.display = 'block';
+                    } else {
+                        footer.style.display = 'none';
+                    }
+                });
+
+                // Trigger once for the initial slide
+                if (Reveal.isFirstSlide()) {
+                    footer.style.display = 'block';
+                }
+            }
+        });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
