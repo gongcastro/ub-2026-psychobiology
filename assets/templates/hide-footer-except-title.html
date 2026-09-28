@@ -1,0 +1,23 @@
+<script>
+    window.addEventListener('load', function () {
+        const footer = document.querySelector('.footer');
+        if (footer) {
+            // Hide footer on all slides initially
+            footer.style.display = 'none';
+
+            // Show footer only on the first (title) slide
+            Reveal.on('slidechanged', function (event) {
+                if (Reveal.isFirstSlide()) {
+                    footer.style.display = 'block';
+                } else {
+                    footer.style.display = 'none';
+                }
+            });
+
+            // Trigger once for the initial slide
+            if (Reveal.isFirstSlide()) {
+                footer.style.display = 'block';
+            }
+        }
+    });
+</script>

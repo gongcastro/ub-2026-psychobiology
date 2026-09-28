@@ -14,12 +14,25 @@ author:
     degrees: PhD
     affiliations:
       - name: Institut de Recerca Sant Joan de Déu (IRSJD)
-        city: Barcelona
+      
+footer: Fonaments de Psicobiologia, Màster en Neurociències, Universitat de Barcelona
     
-
+date: 2026/09/29
+date-format: long
 format:
   revealjs:
     scrollable: true
+    include-after-body: assets/templates/hide-footer-except-title.html
 
-css: style.scss
-bibliography: bibliography.bib
+css: assets/style/style.scss
+bibliography: assets/bibliography.bib
+email-obfuscation: javascript
+slide-number: c
+transition: fade
+transition-speed: fast
+
+mainfont: Arial
+fontsize: 1.6rem
+linkcolor: blue
+monofont: Fira Code
+monobackgroundcolor: lightgrey
