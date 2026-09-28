@@ -24,7 +24,6 @@ format:
   revealjs:
     scrollable: true
     include-after-body: assets/templates/hide-footer-except-title.html
-    output-file: slides.html
     
 css: assets/style/style.scss
 bibliography: assets/bibliography.bib
