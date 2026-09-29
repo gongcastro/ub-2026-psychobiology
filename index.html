@@ -6,8 +6,8 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Gonzalo García-Castro">
   <meta name="dcterms.date" content="2026-09-29">
@@ -21,10 +21,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -153,12 +156,12 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Language</h1>
-  <p class="subtitle">Structure, comprehension, production, and acquisition</p>
+  <p class="subtitle">Structure and research methods</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<a href="gongcastro.github.io">Gonzalo García-Castro</a> <a href="https://orcid.org/0000-0002-8553-4209" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="gongcastro.github.io">Gonzalo García-Castro</a> <a href="https://orcid.org/0000-0002-8553-4209" class="quarto-title-author-orcid" aria-label="ORCID profile for Gonzalo García-Castro"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
 <div class="quarto-title-author-email">
 <a href="mailto:gonzalo.garcia@sjd.es">gonzalo.garcia@sjd.es</a>
@@ -257,10 +260,6 @@
 <h2>What is language?</h2>
 <h3 id="limited-number-of-available-symbols-in-a-language">Limited number of available symbols in a language</h3>
 <p><br></p>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><strong>Limited number of words</strong> in a language.</p>
-</div><div class="column" style="width:70%;">
 <table class="caption-top">
 <caption>Adapted from <span class="citation" data-cites="brysbaert_how_2016">Brysbaert et al. (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>.</caption>
 <thead>
@@ -322,7 +321,6 @@
 </tr>
 </tbody>
 </table>
-</div></div>
 </section>
 <section id="what-is-language-7" class="slide level2">
 <h2>What is language?</h2>
@@ -333,7 +331,8 @@
 <div class="columns">
 <div class="column" style="width:45%;">
 <p>Words (and other linguistic units) are <strong>combined in systematic ways</strong>, following rules we know as <strong>grammar</strong>.</p>
-<p>These rules set the basis for <strong>recursivity</strong>: a given structure can embedd other structures, resulting in a <em>generative</em> (infinite) range of patterns.</p>
+<p><br></p>
+<p>These rules set the basis for <strong>recursivity</strong>: a given structure can embed other structures, resulting in a <em>generative</em> (infinite) range of patterns.</p>
 </div><div class="column" style="width:55%;">
 <div class="center">
 <div class="quarto-figure quarto-figure-center">
@@ -348,9 +347,8 @@
 <section id="what-is-language-8" class="slide level2">
 <h2>What is language?</h2>
 <p><br> <br></p>
-<p>7,745 identified languages (<a href="https://glottolog.org/">Glottolog</a>)</p>
 <table class="caption-top">
-<caption>Agglomerated Endangerment Status <span class="citation" data-cites="hammarstrom_glottologglottolog_2025">(<a href="#/references" role="doc-biblioref" onclick="">Hammarström et al. 2025</a>)</span></caption>
+<caption>Agglomerated Endangerment Status (AES) from 7,745 languages in <a href="https://glottolog.org/">Glottolog</a> <br><span class="citation" data-cites="hammarstrom_glottologglottolog_2025">(<a href="#/references" role="doc-biblioref" onclick="">Hammarström et al. 2025</a>)</span></caption>
 <thead>
 <tr class="header">
 <th>AES status</th>
@@ -488,7 +486,7 @@
 <h2>Speech segmentation</h2>
 <p><br></p>
 <div class="box">
-<p><strong>Statistical learning</strong>: through exposure to language, learners detect the probability with which different sounds go together.</p>
+<p><strong>Statistical learning</strong>: through exposure to language, learners detect the probability with which different sounds go together <span class="citation" data-cites="saffran1996statistical saffran2018infant">(<a href="#/references" role="doc-biblioref" onclick="">Saffran et al. 1996</a>; <a href="#/references" role="doc-biblioref" onclick="">Saffran and Kirkham 2018</a>)</span>.</p>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -498,9 +496,9 @@
 </blockquote>
 <p>Human infants learning native language(s) use the same mechanism in order to predict what sound comes next.</p>
 </div><div class="column" style="width:50%;">
-<iframe data-external="1" src="https://player.vimeo.com/video/21454995" width="400" height="350" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
-</div></div>
+<iframe data-external="1" src="https://player.vimeo.com/video/21454995" width="550" height="200" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
 <p><a href="https://vimeo.com/21454995" class="uri">https://vimeo.com/21454995</a></p>
+</div></div>
 </section>
 <section id="speech-segmentation-2" class="slide level2">
 <h2>Speech segmentation</h2>
@@ -1030,7 +1028,6 @@
 <div class="columns">
 <div class="column">
 <ul>
-<li>Responds equally to speech and other sounds in both left and right hemisphere.</li>
 <li>Anterior regions of <strong>left auditory cortex</strong> responds more to speech than non-speech sounds with same acoustic complexity <span class="citation" data-cites="scott2000identification">(<a href="#/references" role="doc-biblioref" onclick="">Scott et al. 2000</a>)</span></li>
 <li>Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.</li>
 </ul>
@@ -1172,7 +1169,7 @@
 <p>Newborns is given a special pacifier that measures sucking rate</p>
 <ul>
 <li>Newborn’s <strong>sucking frequency</strong> controls the presentation of sounds until bored (habituation)</li>
-<li>Presentation of new sound: if newborn recognizes the change, she will increases the sucking rate</li>
+<li>Presentation of new sound: if newborn recognizes the change, she will increase the sucking rate</li>
 </ul>
 </section>
 <section id="behavioural-methods-6" class="slide level2">
@@ -1491,6 +1488,12 @@ Nelson, Deborah G Kemler, Peter W Jusczyk, Denise R Mandel, James Myers, Alice T
 </div>
 <div id="ref-pena2003sounds" class="csl-entry" role="listitem">
 Peña, Marcela, Atsushi Maki, Damir Kovac̆ić, et al. 2003. <span>“Sounds and Silence: An Optical Topography Study of Language Recognition at Birth.”</span> <em>Proceedings of the National Academy of Sciences</em> 100 (20): 11702–5.
+</div>
+<div id="ref-saffran1996statistical" class="csl-entry" role="listitem">
+Saffran, Jenny R, Richard N Aslin, and Elissa L Newport. 1996. <span>“Statistical Learning by 8-Month-Old Infants.”</span> <em>Science</em> 274 (5294): 1926–28.
+</div>
+<div id="ref-saffran2018infant" class="csl-entry" role="listitem">
+Saffran, Jenny R, and Natasha Z Kirkham. 2018. <span>“Infant Statistical Learning.”</span> <em>Annual Review of Psychology</em> 69: 181–203.
 </div>
 <div id="ref-scott2000identification" class="csl-entry" role="listitem">
 Scott, Sophie K, C Catrin Blank, Stuart Rosen, and Richard JS Wise. 2000. <span>“Identification of a Pathway for Intelligible Speech in the Left Temporal Lobe.”</span> <em>Brain</em> 123 (12): 2400–2406.
