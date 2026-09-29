@@ -3,12 +3,13 @@ project:
     - index.qmd
   execute-dir: project
 
-
+lang: en
 title: Language
 subject: Fonaments de Psicobiologia
-subtitle: Structure, comprehension, production, and acquisition
+subtitle: Structure and research methods
 author: 
   - name: Gonzalo García-Castro
+    github: gongcastro
     url: gongcastro.github.io
     email: gonzalo.garcia@sjd.es
     orcid: 0000-0002-8553-4209
@@ -27,6 +28,8 @@ format:
     
 css: assets/style/style.scss
 bibliography: assets/bibliography.bib
+
+
 email-obfuscation: javascript
 slide-number: c
 transition: fade

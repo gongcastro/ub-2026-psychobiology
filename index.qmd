@@ -4,7 +4,6 @@
 
 ::: {.column width="60%"}
 
-
 ![](/assets/img/irsjd.svg){ width="300"}
 
 <br>
@@ -18,7 +17,6 @@
 :::
 
 ::: {.column width="40%"}
-
 
 ![](/assets/img/neurodevco.jpg){ width="400"}
 
@@ -110,11 +108,7 @@ Finite system of [symbols]{style="background: black; color: white"} (words) that
 
 <br>
 
-::: {.columns}
-::: {.column width="30%"}
-**Limited number of words** in a language.
-:::
-::: {.column width="70%"}
+
 |Person       | Words   | Lemmas | Base words |
 |-------------|---------|--------|------------|
 | *20-year-old* |         |        |            | 	
@@ -126,8 +120,7 @@ Finite system of [symbols]{style="background: black; color: white"} (words) that
 | Median	  |         | 48,200 | 13,400     |
 | High end    | 543,000 | 56,400 | 16,700     |
 : Adapted from @brysbaert_how_2016.
-:::
-:::
+
 
 ## What is language?
 
@@ -141,7 +134,9 @@ Finite system of symbols (words) that can be combined using [rules]{style="backg
 ::: {.column width="45%"}
 Words (and other linguistic units) are **combined in systematic ways**, following rules we know as **grammar**.
 
-These rules set the basis for **recursivity**: a given structure can embedd other structures, resulting in a *generative* (infinite) range of patterns.
+<br>
+
+These rules set the basis for **recursivity**: a given structure can embed other structures, resulting in a *generative* (infinite) range of patterns.
 :::
 ::: {.column width="55%"}
 ::: center
@@ -155,7 +150,6 @@ These rules set the basis for **recursivity**: a given structure can embedd othe
 <br>
 <br>
 
-7,745 identified languages ([Glottolog](https://glottolog.org/))
 
 | AES status     | # of languages | % of languages |
 |----------------|----------------|----------------|
@@ -165,7 +159,8 @@ These rules set the basis for **recursivity**: a given structure can embedd othe
 | moribund       | 422            | 5.45%          |
 | nearly extinct | 299            | 3.86%          |
 | extinct        | 981            | 12.67%         |
-: Agglomerated Endangerment Status [@hammarstrom_glottologglottolog_2025]
+: Agglomerated Endangerment Status (AES) from 7,745 languages in [Glottolog](https://glottolog.org/) <br>[@hammarstrom_glottologglottolog_2025]
+
 
 ## What is language?
 
@@ -286,7 +281,7 @@ Boundaries between individual spoken words are not easy to detect:
 <br>
 
 ::: box
-**Statistical learning**: through exposure to language, learners detect the probability with which different sounds go together.
+**Statistical learning**: through exposure to language, learners detect the probability with which different sounds go together [@saffran1996statistical; @saffran2018infant].
 :::
 
 ::: {.columns}
@@ -304,13 +299,14 @@ Human infants learning native language(s) use the same mechanism in order to pre
 
 ::: {.column width="50%"}
 
-{{< video https://vimeo.com/21454995 width="400" height="350" >}}
-
-:::
-
-:::
+{{< video https://vimeo.com/21454995 width="550" height="200">}}
 
 <https://vimeo.com/21454995>
+
+:::
+
+:::
+
 
 ## Speech segmentation
 
@@ -947,7 +943,6 @@ The **auditory pathway** transforms sound (air vibrations) into electric potenti
 
 ::: {.column}
 
-* Responds equally to speech and other sounds in both left and right hemisphere.
 * Anterior regions of **left auditory cortex** responds more to speech than non-speech sounds with same acoustic complexity [@scott2000identification]
 * Right hemisphere does not show this preference, suggesting specialization of left hemisphere for speech processing.
 
@@ -1120,7 +1115,7 @@ Newborns is given a special pacifier that measures sucking rate
 
 * Newborn's **sucking frequency** controls the presentation of
 sounds until bored (habituation)
-* Presentation of new sound: if newborn recognizes the change, she will increases the sucking rate
+* Presentation of new sound: if newborn recognizes the change, she will increase the sucking rate
 
 ## Behavioural methods
 
